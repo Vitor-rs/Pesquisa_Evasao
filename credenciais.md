@@ -1,0 +1,3 @@
+- !git config --global user.email "vitor.santos9@estudante.ifms.edu.br"
+- !git config --global user.name "Vitor-rs"
+- !git remote set-url origin  http://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@github.com/Vitor-rs/Pesquisa_Evasao
