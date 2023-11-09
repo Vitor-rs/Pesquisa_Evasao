@@ -1,0 +1,953 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/25883-abandono-escolar-e-oito-vezes-maior-entre-jovens-de-familias-mais-pobres">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_589"/>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Abandono escolar é oito vezes maior entre jovens de famílias mais pobres | Agência de Notícias</dc:title>
+        <dcterms:abstract>A renda é um dos fatores que determinam os percentuais de abandono e atraso escolar dos jovens de 15 a 17 anos. Na evasão...</dcterms:abstract>
+        <dc:date>2019-11-06T13:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/25883-abandono-escolar-e-oito-vezes-maior-entre-jovens-de-familias-mais-pobres</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:00:32</dcterms:dateSubmitted>
+        <dc:description>Section: Estatísticas Sociais</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_589">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/589/25883-abandono-escolar-e-oito-vezes-maior-entre-jovens-de-familias-mais-pobres.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/25883-abandono-escolar-e-oito-vezes-maior-entre-jovens-de-familias-mais-pobres</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:00:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/18384-trabalho-infantil-mais-de-20-milhoes-de-criancas-realizavam-tarefas-domesticas">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_591"/>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Trabalho infantil: mais de 20 milhões de crianças realizavam tarefas domésticas | Agência de Notícias</dc:title>
+        <dcterms:abstract>Mais da metade das crianças e adolescentes de 5 a 17 anos trabalhavam em casa com cuidados de pessoas ou afazeres domésticos,...</dcterms:abstract>
+        <dc:date>2017-11-29T12:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <z:shortTitle>Trabalho infantil</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/18384-trabalho-infantil-mais-de-20-milhoes-de-criancas-realizavam-tarefas-domesticas</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:01:22</dcterms:dateSubmitted>
+        <dc:description>Section: Estatísticas Sociais</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_591">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/591/18384-trabalho-infantil-mais-de-20-milhoes-de-criancas-realizavam-tarefas-domesticas.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/18384-trabalho-infantil-mais-de-20-milhoes-de-criancas-realizavam-tarefas-domesticas</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:01:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/28286-necessidade-de-trabalhar-e-desinteresse-sao-principais-motivos-para-abandono-escolar">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_593"/>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Necessidade de trabalhar e desinteresse são principais motivos para abandono escolar | Agência de Notícias</dc:title>
+        <dcterms:abstract>Necessidade de trabalhar, desinteresse e gravidez são os principais motivos que levam jovens brasileiros a abandonarem os...</dcterms:abstract>
+        <dc:date>2020-07-15T13:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/28286-necessidade-de-trabalhar-e-desinteresse-sao-principais-motivos-para-abandono-escolar</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:01:46</dcterms:dateSubmitted>
+        <dc:description>Section: Estatísticas Sociais</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_593">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/593/28286-necessidade-de-trabalhar-e-desinteresse-sao-principais-motivos-para-abandono-escolar.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/28286-necessidade-de-trabalhar-e-desinteresse-sao-principais-motivos-para-abandono-escolar</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:01:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/23105-numeros-caem-porem-trabalho-infantil-ainda-e-realidade-no-pais">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Números caem, porém trabalho infantil ainda é realidade no país | Agência de Notícias</dc:title>
+        <dcterms:abstract>Um dos direitos sociais garantidos na Constituição Federal, a proteção à infância chega aos 30 anos da Carta Magna...</dcterms:abstract>
+        <dc:date>2018-11-26T13:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/23105-numeros-caem-porem-trabalho-infantil-ainda-e-realidade-no-pais</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:02:05</dcterms:dateSubmitted>
+        <dc:description>Section: Séries Especiais</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14054-asi-publicacao-aborda-aspectos-teoricos-e-analisa-deslocamentos-populacionais-no-brasil">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_596"/>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Publicação aborda aspectos teóricos e analisa deslocamentos populacionais no Brasil | Agência de Notícias</dc:title>
+        <dcterms:abstract>A partir da década de 1980, o comportamento da mobilidade espacial da população sofreu importantes transformações nos...</dcterms:abstract>
+        <dc:date>2011-07-15T10:01:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14054-asi-publicacao-aborda-aspectos-teoricos-e-analisa-deslocamentos-populacionais-no-brasil</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:02:15</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_596">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/596/14054-asi-publicacao-aborda-aspectos-teoricos-e-analisa-deslocamentos-populacionais-no-brasil.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14054-asi-publicacao-aborda-aspectos-teoricos-e-analisa-deslocamentos-populacionais-no-brasil</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:02:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/28285-pnad-educacao-2019-mais-da-metade-das-pessoas-de-25-anos-ou-mais-nao-completaram-o-ensino-medio">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>PNAD Educação 2019: Mais da metade das pessoas de 25 anos ou mais não completaram o ensino médio | Agência de Notícias</dc:title>
+        <dcterms:abstract>Apesar da proporção de pessoas de 25 anos ou mais com ensino médio completo ter crescido no país, passando de 45,0% em...</dcterms:abstract>
+        <dc:date>2020-07-15T13:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <z:shortTitle>PNAD Educação 2019</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/28285-pnad-educacao-2019-mais-da-metade-das-pessoas-de-25-anos-ou-mais-nao-completaram-o-ensino-medio</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:02:32</dcterms:dateSubmitted>
+        <dc:description>Section: Estatísticas Sociais</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/24857-pnad-continua-2018-educacao-avanca-no-pais-mas-desigualdades-raciais-e-por-regiao-persistem">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>PNAD Contínua 2018: educação avança no país, mas desigualdades raciais e por região persistem | Agência de Notícias</dc:title>
+        <dcterms:abstract>Os resultados do módulo de Educação da Pesquisa Anual por Amostra de Domicílios Contínua (PNAD-Contínua) revelam que...</dcterms:abstract>
+        <dc:date>2019-06-19T13:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <z:shortTitle>PNAD Contínua 2018</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/24857-pnad-continua-2018-educacao-avanca-no-pais-mas-desigualdades-raciais-e-por-regiao-persistem</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:02:42</dcterms:dateSubmitted>
+        <dc:description>Section: Estatísticas Sociais</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/21253-pnad-continua-2017-numero-de-jovens-que-nao-estudam-nem-trabalham-ou-se-qualificam-cresce-5-9-em-um-ano">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>PNAD Contínua 2017: número de jovens que não estudam nem trabalham ou se qualificam cresce 5,9% em um ano | Agência de Notícias</dc:title>
+        <dcterms:abstract>Em 2017, das 48,5 milhões de pessoas com 15 a 29 anos de idade, 23,0% (11,2 milhões) não trabalhavam nem estudavam ou...</dcterms:abstract>
+        <dc:date>2018-05-18T13:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <z:shortTitle>PNAD Contínua 2017</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/21253-pnad-continua-2017-numero-de-jovens-que-nao-estudam-nem-trabalham-ou-se-qualificam-cresce-5-9-em-um-ano</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:02:53</dcterms:dateSubmitted>
+        <dc:description>Section: Estatísticas Sociais</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14433-asi-atlas-do-censo-demografico-do-ibge-mapeia-mudancas-na-sociedade-brasileira">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Atlas do Censo Demográfico do IBGE mapeia mudanças na sociedade brasileira | Agência de Notícias</dc:title>
+        <dcterms:abstract>São Paulo e Rio de Janeiro já não têm o mesmo peso como grandes polos de atração do país. Em contrapartida, metrópoles...</dcterms:abstract>
+        <dc:date>2013-06-28T12:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14433-asi-atlas-do-censo-demografico-do-ibge-mapeia-mudancas-na-sociedade-brasileira</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:03:02</dcterms:dateSubmitted>
+        <dc:description>Section: Geociências</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="#item_601">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Atlas do Censo Demográfico do IBGE mapeia mudanças na sociedade brasileira | Agência de Notícias</dc:title>
+        <dcterms:abstract>São Paulo e Rio de Janeiro já não têm o mesmo peso como grandes polos de atração do país. Em contrapartida, metrópoles...</dcterms:abstract>
+        <dc:date>2013-06-28T12:00:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14433-asi-atlas-do-censo-demografico-do-ibge-mapeia-mudancas-na-sociedade-brasileira</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:03:14</dcterms:dateSubmitted>
+        <dc:description>Section: Geociências</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13380-asi-menos-de-um-terco-dos-municipios-priorizou-a-contratacao-de-professores-em-2006">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_603"/>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Menos de um terço dos municípios priorizou a contratação de professores em 2006 | Agência de Notícias</dc:title>
+        <dcterms:abstract>A sexta edição da Pesquisa de Informações Básicas Municipais – Munic 2006 - investigou junto a 5.564 prefeituras,...</dcterms:abstract>
+        <dc:date>2007-10-26T10:01:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13380-asi-menos-de-um-terco-dos-municipios-priorizou-a-contratacao-de-professores-em-2006</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:03:23</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_603">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/603/13380-asi-menos-de-um-terco-dos-municipios-priorizou-a-contratacao-de-professores-em-2006.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13380-asi-menos-de-um-terco-dos-municipios-priorizou-a-contratacao-de-professores-em-2006</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:03:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13100-asi-aumento-da-escolaridade-feminina-reduz-fecundidade-e-mortalidade-infantil">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Agência de Notícias - IBGE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>noticia</dc:subject>
+        <dc:title>Aumento da escolaridade feminina reduz fecundidade e mortalidade infantil | Agência de Notícias</dc:title>
+        <dcterms:abstract>A Síntese dos Indicadores Sociais, elaborada pelo IBGE (Instituto Brasileiro de Geografia e Estatística), mostra que o...</dcterms:abstract>
+        <dc:date>2006-04-12T10:01:00+00:00</dc:date>
+        <z:language>pt-BR</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13100-asi-aumento-da-escolaridade-feminina-reduz-fecundidade-e-mortalidade-infantil</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:03:34</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Article rdf:about="https://revistaseletronicas.pucrs.br/index.php/porescrito/article/view/40630">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2179-8435"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carvalho</foaf:surname>
+                        <foaf:givenName>Helene Santos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castanho</foaf:surname>
+                        <foaf:givenName>Marisa Irene Siqueira</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_606"/>
+        <dc:subject>analise</dc:subject>
+        <dc:subject>artigo</dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>educação</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ensino médio</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>escola</dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>evasão escolar</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>resenha</dc:subject>
+        <dc:title>A evasão escolar no ensino médio: Análise de uma realidade</dc:title>
+        <dcterms:abstract>This study had as main objective to apprehend the meanings associated with school evasion in High School, and to characterize the convergences and divergences that exist between the speeches of managers, teachers and students. The research was done in the two existing state schools in a city in the countryside of Sao Paulo city, with four principals, ten teachers and sixteen students. The data collection was conducted in two stages, the first consists of questionnaires with closed questions about the participants’ personal info, and the second, through interviews with a semi-open script, aiming to apprehend the meanings surround the problem. The information was organized in tables, and the analysis of the content was guided by the historical-cultural approach, in which the speeches and expressions were explored through the apprehension of meanings described by Aguiar and Ozella (2006), organized in pre-indicators, indicators and the meaning core. The main results show that, on the part of the teachers and principals, the meaning show the value of knowledge transmitted by the school, the importance of support networks for monitoring the student’s daily life. However, the emphasis appears on the teacher’s limits and the school to contain the evasion phenomenon. Students emphasize that the school, the teacher and the student’s reality have a meaning core on school performance, which can be considered as motivations for dropout and highlight the importance of being heard, valuing research as an opportunity to express what they think and feel.</dcterms:abstract>
+        <dc:date>2022-09-30</dc:date>
+        <z:language>pt</z:language>
+        <z:shortTitle>A evasão escolar no ensino médio</z:shortTitle>
+        <z:libraryCatalog>revistaseletronicas.pucrs.br</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://revistaseletronicas.pucrs.br/index.php/porescrito/article/view/40630</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:07:09</dcterms:dateSubmitted>
+        <dc:description>0 citations (Crossref) [2023-08-25]</dc:description>
+        <bib:pages>e40630-e40630</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2179-8435">
+        <prism:volume>13</prism:volume>
+        <dc:title>Educação Por Escrito</dc:title>
+        <dc:identifier>DOI 10/gsm665</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 2179-8435</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_606">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/606/Carvalho e Castanho - 2022 - A evasão escolar no ensino médio Análise de uma r.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://revistaseletronicas.pucrs.br/index.php/porescrito/article/download/40630/27675</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:07:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ojs.ifes.edu.br/index.php/dect/article/view/1482">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2236-2150"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fiorotti</foaf:surname>
+                        <foaf:givenName>Cláudia Aparecida Siola</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rosa</foaf:surname>
+                        <foaf:givenName>Sanny Silva da</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_608"/>
+        <dc:subject>analise</dc:subject>
+        <dc:subject>artigo</dc:subject>
+        <dc:subject>escola</dc:subject>
+        <dc:subject>resenha</dc:subject>
+        <dc:title>EVASÃO ESCOLAR: UM ESTUDO DE CASO NO ENSINO TÉCNICO EM ADMINISTRAÇÃO DO ABC PAULISTA</dc:title>
+        <dcterms:abstract>This article aims to analyze the phenomenon of school dropout in a high school technical course at the State Center for Technological Education Paula Souza. The general objective of the research was to understand intra- and extra-school causes declared by dropout students and the management team of the Technical Course in Administration of a State Technical School located in the ABC Paulista region. Methodologically, this case study used documentary sources, application of questionnaires and qualitative data collected in a discussion group with the managers of the researched unit. The results show that the main causes of school dropout are of extra-school nature, especially difficulties of reconciling work activities with studies, financial, personal and/or health problems. The most prominent intra-school causes were poorly motivating classes and the mismatch between the course requirements and the students background from their previous stages of schooling. It was observed that, despite the management team great concerns about the school dropout, the actions and strategies adopted by the school have been insufficient to control that phenomenon.
+Keywords: School droupout, Techinical-professional education, School management.</dcterms:abstract>
+        <dc:date>2022-08-25</dc:date>
+        <z:language>pt</z:language>
+        <z:shortTitle>EVASÃO ESCOLAR</z:shortTitle>
+        <z:libraryCatalog>ojs.ifes.edu.br</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.ifes.edu.br/index.php/dect/article/view/1482</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:09:16</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c) 2022 Revista Eletrônica Debates em Educação Científica e Tecnológica</dc:rights>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+Number: 1</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2236-2150">
+        <prism:volume>12</prism:volume>
+        <dc:title>Revista Eletrônica Debates em Educação Científica e Tecnológica</dc:title>
+        <dc:identifier>DOI 10/gsm664</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 2236-2150</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_608">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/608/Fiorotti e Rosa - 2022 - EVASÃO ESCOLAR UM ESTUDO DE CASO NO ENSINO TÉCNIC.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.ifes.edu.br/index.php/dect/article/download/1482/941</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:09:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_609">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Anais do XIII Computer on the Beach - COTB'22</dc:title>
+                <dc:identifier>DOI 10.14210/cotb.v13.p149-156</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Eduardo Moura Da Silva</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Fabiano Borges Ruy</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Filipe Wall Mutz</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_621"/>
+        <dc:title>Abordagem para Análise de Múltiplas Fontes de Dados de Evasão Escolar</dc:title>
+        <dcterms:abstract>Scholar dropout is a challenge for educational institutions. It is caused by many factors that should be known to be treated. Some analytical tools can help in this intent, especially when the proper data is well organized in a consistent structure and format. This paper presents a technical approach to allow homogeneous analysis for different scholar data sources, applying it to the dropout domain. This proposal makes use of an ontology to provide a better under- standing of the domain semantics, and to act as an interlanguage for the creation of standardized repositories from where dropout data can be analyzed.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.14210/cotb.v13.p149-156
+S2ID: f8563dc71560013d8d9ebf8d6e747d9a98be83bf</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_621">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/621/Eduardo Moura Da Silva et al. - 2022 - Abordagem para Análise de Múltiplas Fontes de Dado.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://periodicos.univali.br/index.php/acotb/article/download/18791/10792</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:27:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_610">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>12</prism:volume>
+                <dc:title>Debates em Educação Científica e Tecnológica</dc:title>
+                <dc:identifier>DOI 10/gsm664</dc:identifier>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cláudia Aparecida Siola Fiorotti</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Sanny Silva da Rosa</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_627"/>
+        <dc:title>EVASÃO ESCOLAR: UM ESTUDO DE CASO NO ENSINO TÉCNICO EM ADMINISTRAÇÃO DO ABC PAULISTA</dc:title>
+        <dcterms:abstract>Este artigo tem por finalidade analisar o fenômeno da evasão escolar em um curso técnico de nível médio do Centro Estadual de Educação Tecnológica Paula Souza. O objetivo geral da pesquisa foi conhecer as causas intra e extraescolares declaradas por alunos evadidos e pela equipe gestora do Curso Técnico em Administração de uma Escola Técnica Estadual localizada na região do ABC Paulista. Metodologicamente, o estudo de caso se valeu de fontes documentais, aplicação de questionários e dados qualitativos coletados em um grupo de discussão com os gestores da unidade pesquisada. Os resultados evidenciam que as principais causas da evasão escolar são de natureza extraescolar, sobretudo, dificuldades de conciliar atividades de trabalho com os estudos, problemas financeiros, pessoais e/ou de saúde. As causas intraescolares mais destacadas foram as aulas pouco motivadoras e o descompasso entre as exigências do curso e o repertório de conhecimentos acumulados pelos alunos em etapas anteriores de sua escolarização. Observou-se que, a despeito da grande preocupação da equipe gestora com a problemática da evasão escolar, as ações e estratégias adotadas pela escola têm sido insuficientes para controlar este fenômeno.&amp;#x0D; Palavras-chave: Evasão Escolar, Ensino técnico-profissional, Gestão Escolar.</dcterms:abstract>
+        <dc:date>2022-08-25</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.36524/dect.v12i1.1482
+MAG ID: 4293457670
+S2ID: e4776169893cc7d62d2bb0d82b2ced2a69beb86e</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_627">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/627/Cláudia Aparecida Siola Fiorotti e Sanny Silva da Rosa - 2022 - EVASÃO ESCOLAR UM ESTUDO DE CASO NO ENSINO TÉCNIC.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.ifes.edu.br/index.php/dect/article/download/1482/941</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:28:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_611">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>13</prism:volume>
+                <dc:title>Educação Por Escrito</dc:title>
+                <dc:identifier>DOI 10/gsm665</dc:identifier>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Helene Santos Carvalho</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castanho</foaf:surname>
+                        <foaf:givenName>Marisa Irene Siqueira</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_626"/>
+        <dc:title>A evasão escolar no ensino médio</dc:title>
+        <dcterms:abstract>Este estudo teve como principal objetivo apreender os sentidos produzidos por professores, gestores e alunos sobre a evasão escolar no ensino médio, e identificar possíveis convergências e divergências em seus discursos. A pesquisa foi realizada nas duas escolas estaduais de um município do interior de São Paulo, com quatro gestores, dez professores e dezesseis alunos. O levantamento de dados foi conduzido em duas etapas, a primeira composta por questionários com perguntas fechadas acerca das informações referentes ao perfil dos participantes, e a segunda, por entrevistas com roteiro semiaberto, visando apreender os sentidos que circundam a problemática. As informações foram organizadas em quadros, e a análise das falas e expressões pautada na abordagem histórico-cultural, possibilitando a apreensão de sentidos assim como descrito por Aguiar e Ozella (2006), por meio da organização de pré-indicadores, indicadores e núcleos de significação. Os principais resultados mostram que, por parte dos professores e dirigentes, os núcleos de significação evidenciam o valor do conhecimento transmitido pela escola, a importância das redes de apoio para o acompanhamento do cotidiano do aluno e, contraditoriamente, os limites do professor e da escola na contenção do fenômeno da evasão. Os alunos ressaltam que a escola, o professor e a realidade do aluno têm peso no desempenho escolar, podendo ser considerados como motivações da evasão, e evidenciam a importância de serem ouvidos, valorizando a pesquisa como oportunidade de expressão do que pensam e sentem.</dcterms:abstract>
+        <dc:date>2022-09-30</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.15448/2179-8435.2022.1.40630
+MAG ID: 4298140275
+S2ID: 2e6785cd8c4d279ec6784f71f3767e81927d353c</dc:description>
+        <bib:pages>e40630-e40630</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_626">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/626/Helene Santos Carvalho e Castanho - 2022 - A evasão escolar no ensino médio.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://revistaseletronicas.pucrs.br/index.php/porescrito/article/download/40630/27675</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:28:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_612">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Anais do I Workshop de Aplicações Práticas de Learning Analytics em Instituições de Ensino no Brasil (WAPLA 2022)</dc:title>
+                <dc:identifier>DOI 10/gsm66w</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Isleimar S. Oliveira</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Medeiros Júnior</foaf:surname>
+                        <foaf:givenName>Francisco Cesino</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Fabio G. Andrade</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_628"/>
+        <dc:title>Seleção de Atributos para Classificadores de Evasão Escolar com Dados da Plataforma Nilo Peçanha</dc:title>
+        <dcterms:abstract>A evasão escolar é um problema que tem afetado estudantes, comunidades e instituições educacionais em todo o mundo. Para combatê-la, ações preventivas podem ser realizadas visando a permanência desses alunos. Para isso, é necessário identificar os alunos com potencial risco de evasão o mais cedo possível. Este trabalho apresenta os resultados de um estudo para aplicação de um algoritmo preditivo capaz de identificar alunos com potencial de evasão escolar utilizando um conjunto de dados disponível na Plataforma Nilo Peçanha para cursos técnicos e superiores. O algoritmo Random Forest foi utilizado para seleção e predição de características, apresentando resultados satisfatórios para prever a evasão escolar.</dcterms:abstract>
+        <dc:date>2022-11-16</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.5753/wapla.2022.226769
+MAG ID: 4309643856
+S2ID: 75c03777cb5fee6e46b391d09ef76e6c5f336102</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_628">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/628/Isleimar S. Oliveira et al. - 2022 - Seleção de Atributos para Classificadores de Evasã.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sol.sbc.org.br/index.php/wapla/article/download/22520/22344</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:28:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_613">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Escola em tempos de conexões - Volume 01</dc:title>
+                <dc:identifier>DOI 10/gsm66x</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>RICARDO JOSÉ ANDRADE SILVA</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>SANDRA JESUS DE MÉLO TAVARES SOARES</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>A ORIENTAÇÃO EDUCACIONAL NO COMBATE À EVASÃO ESCOLAR</dc:title>
+        <dcterms:abstract>O PRESENTE TRABALHO TEM COMO OBJETIVO PRINCIPAL, IDENTIFICAR COMO A ORIENTAÇÃO EDUCACIONAL PODE CONTRIBUIR NO COMBATE À EVASÃO ESCOLAR. TAL ANÁLISE, OBTIDA APÓS A REALIZAÇÃO DE UMA PESQUISA BIBLIOGRÁFICA TEM A SUA JUSTIFICATIVA E RELEVÂNCIA À MEDIDA EM QUE A ORIENTAÇÃO EDUCACIONAL, PODE CONTRIBUIR PARA QUE AS AÇÕES NECESSÁRIAS QUANTO AO ENTENDIMENTO SOBRE A REALIDADE DOS ALUNOS, SEUS PROBLEMAS E DIFICULDADES DE APRENDIZAGEM, BEM COMO QUANTO ÀS PRÁTICAS E MÉTODOS PEDAGÓGICOS MAIS INDICADOS, POSSAM SER DETERMINANTES PARA QUE OS ESTUDANTES PERMANEÇAM NA ESCOLA E NÃO ABANDONEM O ENSINO. PELA PESQUISA REALIZADA, FOI POSSÍVEL IDENTIFICAR AS CAUSAS E CONSEQUÊNCIAS DA EVASÃO ESCOLAR, TANTO PARA OS INDIVÍDUOS, QUANTO PARA O PRÓPRIO PAÍS, BEM COMO RECONHECER A IMPORTÂNCIA DO PAPEL DO ORIENTADOR EDUCACIONAL NO DESENVOLVIMENTO E ORIENTAÇÃO DE CRIANÇAS E JOVENS ESTUDANTES.</dcterms:abstract>
+        <dc:date>2022-01-01</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.46943/vii.conedu.2021.01.043
+MAG ID: 4205443402
+S2ID: 19ed2d29f5bb5bca23c56a3b87f264cc42046801</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_614">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Revista Ibero-Americana de Estudos em Educação</dc:title>
+                <dc:identifier>DOI 10/gsm662</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Paulo Dante de Toledo Serrain</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cruz</foaf:surname>
+                        <foaf:givenName>José Anderson Santos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santos</foaf:surname>
+                        <foaf:givenName>Welson Barbosa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_620"/>
+        <dc:title>A evasão escolar devido a motivos ou causas pedagógicas</dc:title>
+        <dcterms:abstract>As instituições de ensino privadas inserem-se em um ambiente cada vez mais competitivo. Neste sentido, um fenômeno que precisa ser acompanhado pela gestão escolar é a evasão. Esta pesquisa teve como objetivo propor um plano de prevenção à evasão escolar associada a motivos ou causas pedagógicas. Para tal, realizou-se uma pesquisa de abordagem qualitativa exploratória documental sobre os dados disponibilizados pela instituição sobre a evasão, referentes ao período de 2016 a 2019, e sobre a satisfação das famílias com a escola, compreendendo o período de 2018 a 2020; uma revisão sistemática para o levantamento dos contributos da literatura sobre o assunto; e uma pesquisa descritiva de campo para a análise da percepção das famílias dos estudantes e professores sobre o trabalho pedagógico realizado pela instituição. Como resultado foram constatadas algumas dimensões pedagógicas relevantes para o estudo da evasão escolar e identificados problemas locais (por ano de ensino) e globais (do segmento) da instituição que se relacionam com seu produto pedagógico. A partir disso, foi elaborado um plano de prevenção para a evasão escolar associada a motivos ou causas pedagógicas.</dcterms:abstract>
+        <dc:date>2022-01-02</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.21723/riaee.v17i1.16193
+MAG ID: 4225258077
+S2ID: b6504840d4802e8561bcac0b1572259dcf52619e</dc:description>
+        <bib:pages>0072-0096</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_620">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/620/Paulo Dante de Toledo Serrain et al. - 2022 - A evasão escolar devido a motivos ou causas pedagó.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://periodicos.fclar.unesp.br/iberoamericana/article/download/16193/12529</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:27:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_615">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Revista Principia</dc:title>
+                <dc:identifier>DOI 10/gsm663</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>I. S. Oliveira</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>F. Andrade</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>F. Medeiros</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Camila Casimiro</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Fagne Rolim Farias</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Construção de um data warehouse para uma análise multidimensional da evasão escolar - estudo de caso da Plataforma Nilo Peçanha</dc:title>
+        <dcterms:abstract>Os índices elevados de evasão escolar representam um problema que tem atraído a atenção de muitos gestores e educadores ao redor do mundo. Esse problema acontece quando, por algum motivo, o aluno abandona o curso no qual está matriculado antes de sua conclusão. A evasão escolar gera uma série de prejuízos aos diversos atores envolvidos no processo educacional e pode ocorrer em diversos níveis e modalidades de ensino e por diversas causas. Uma forma de se combater a evasão escolar e, consequentemente, os problemas causados por ela consiste em identificar de forma antecipada, alunos ou perfis de alunos com alto risco de evasão. A identificação prévia destes perfis pode auxiliar os gestores de políticas educacionais na tomada de decisão, como a elaboração de planos e a execução de ações que tentem evitar que os alunos abandonem os seus cursos. Neste trabalho propõem a confecção de um banco de dados dimensional utilizado em um Data Warehouse, para análise das características dos alunos, relacionadas à evasão escolar. Os dados são oriundos da Plataforma Nilo Peçanha, adquiridos através de processos de extração, transformação e carga dos dados. Processo de  Descoberta de Conhecimento em Banco Dados foi utilizado para analisar quais características estão relacionadas à evasão escolar de alunos de cursos de nível técnico e de graduação da rede federal de ensino de todo o Brasil, comparando os resultados com os dados do Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (IFPB). As características relacionadas à faixa etária, renda per capita familiar e etnia apresentaram diferenças significativas quando comparados entre os alunos que abandonaram o curso daqueles que concluíram.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.18265/1517-0306a2022id7235
+S2ID: 80a0abb9bd45fb2cf123b0534e115d34798c8422</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_616">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>8</prism:volume>
+                <dc:title>Revista Ibero-Americana de Humanidades, Ciências e Educação</dc:title>
+                <dc:identifier>DOI 10/gsm66z</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Nilton Araújo</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Nilton Araújo</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Marcilene Candeia Dantas</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Marcilene Candeia Dantas</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marcela Tarciana Cunha Silva Martins</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marcela Tarciana Cunha Silva Martins</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_624"/>
+        <dc:title>RELAÇÃO DA EVASÃO ESCOLAR COM A LEITURA E A ESCRITA NA MODALIDADE EJA: A PERCEPÇÃO DO GESTOR E DA COORDENADORA PEDAGÓGICA</dc:title>
+        <dcterms:abstract>A leitura proporciona ao indivíduo o conhecimento do mundo, da cultura e o acesso às informações em diferentes fontes. Destaca-se que a prática da leitura melhora a escrita, adquire conhecimento e, dessa forma, estará sendo preparado para um mundo de leitores críticos. Todavia, é necessário desenvolver pesquisas que possibilitem um olhar diferenciado para a relação entre leitura, escrita e evasão escolar, com o propósito de inferir nas práticas educativas que corroborem para o desenvolvimento das habilidades necessárias dentro de cada ciclo na modalidade EJA. Dessa forma, objetivou verificar a percepção da coordenadora e do gestor com a possível relação entre as dificuldades de aprendizagem na leitura, escrita e a evasão escolar no ciclo III da EJA, na Escola Estadual Napoleão Abdon Nóbrega, em São Mamede-PB. Participaram da pesquisa a coordenador pedagógico e o gestor. O tipo de estudo da pesquisa foi descritivo, com abordagem qualitativa, tendo como instrumentos de pesquisa questionários contendo questões objetivas e subjetivas. De acordo com os resultados, apesar dos casos de evasão, a escola possui estratégias para motivar os educandos a permanecerem e concluírem os estudos, para tanto apenas a gestora citou que uma das estratégias é promover palestra envolvendo alunos graduados que estudaram na EJA. Nesse aspecto, a coordenadora e o gestor relataram que alguns professores incentivam os educandos a continuarem nos estudos, a exemplo de aparatos visuais, escritas no quadro e na interpretação textual trabalha textos que deixe a turma curiosa. Percebe-se que a estabilidade financeira é o fator preponderante que leva o educando da EJA, da Escola Napoleão Abdon da Nóbrega, a desistir de estudar.</dcterms:abstract>
+        <dc:date>2022-03-31</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.51891/rease.v8i3.4685
+MAG ID: 4226116183
+S2ID: c6204f0df6cf45d4894a0207cd76f335b5f1eb9a</dc:description>
+        <bib:pages>1089-1104</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_624">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/624/Nilton Araújo et al. - 2022 - RELAÇÃO DA EVASÃO ESCOLAR COM A LEITURA E A ESCRIT.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://periodicorease.pro.br/rease/article/download/4685/1772</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:28:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_617">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>17</prism:volume>
+                <dc:title>Educação on-line</dc:title>
+                <dc:identifier>DOI 10/gsm66v</dc:identifier>
+                <prism:number>40</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Darlan Roberto Dos Santos</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Cirley José Henriques</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_625"/>
+        <dc:title>A educomunicação no ensino superior como aliada no combate à evasão escolar: relato de experiência</dc:title>
+        <dcterms:abstract>A educomunicação compreende a utilização de ferramentas de comunicação em sala de aula, com objetivos didáticos. Em tempos de grande evasão nas instituições de ensino e desmotivação dos alunos, tal procedimento pode ser bastante útil. Nesse sentido, propõe-se apresentar a educomunicação, em algumas de suas potencialidades, como aliada na educação. Para isso, a pesquisa conta com levantamento bibliográfico, além de relato de experiência. Na coleta de dados, foram adotadas as técnicas de observação participante e aplicação de questionários. Os resultados mostraram que a educomunicação, através de atividade específica, contribuiu para o engajamento de estudantes, o que, conforme hipótese aventada, coloca tal prática como aliada no combate à evasão escolar, na medida em que pode tornar o ensino mais participativo e atraente aos discentes.</dcterms:abstract>
+        <dc:date>2022-08-15</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.36556/eol.v17i40.1239
+MAG ID: 4293064007
+S2ID: ee468c14b44fc5f0a29663236f40ca2bdaaa4a42</dc:description>
+        <bib:pages>102-120</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_625">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/625/Darlan Roberto Dos Santos e Cirley José Henriques - 2022 - A educomunicação no ensino superior como aliada no.pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://educacaoonline.edu.puc-rio.br/index.php/eduonline/article/download/1239/391</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:28:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_618">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Research, Society and Development</dc:title>
+                <dc:identifier>DOI 10/gsm66t</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Daiany Dos Reis Santana</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>J. J. Nervis</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>George Francisco Santiago Martin</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_622"/>
+        <dc:title>Análise do abandono e/ou evasão escolar na EJA em pesquisas publicadas entres os anos de 2011 a 2020</dc:title>
+        <dcterms:abstract>Este estudo trata-se de um recorte do trabalho de pesquisa que foi realizado para compor a dissertação de mestrado “Análise da evasão escolar na EJA e uma proposição ao ensino de Matemática visando a permanência dos estudantes”. Objetiva investigar as situações que se relacionam a ocorrência da evasão escolar na EJA.  Aborda o abandono e/ou evasão escolar nos Anos Iniciais e Finais do Ensino Fundamental e Ensino Médio da EJA, em uma perspectiva nacional, no período compreendido entre os anos de 2011 a 2020 e recorre à pesquisa bibliográfica, explorando a base de dados da CAPES. Para a revisão de literatura, emprega-se as etapas da Revisão Integrativa e a metodologia de análise dos dados segue a abordagem qualitativa, sendo interpretados através da Análise de Conteúdo. Para as situações relacionadas à ocorrência da evasão escolar na EJA, emergem como resultados duas categorias: Causas de evasão na EJA externas à escola (subcategorias: sociais e financeiras; emocionais ou de saúde; pessoais ou familiares) e Causas de evasão na EJA internas à escola (subcategorias: socialização; organização do cotidiano escolar ou da prática pedagógica; atuação governamental junto à escola). As conclusões demonstram que a evasão escolar é um problema complexo, que precisa ser analisado sob vários aspectos e, quando se refere à Educação de Jovens e Adultos, requer que as especificidades desses educandos sejam reconhecidas, de modo que as ações possam expressar a necessidade de permanência escolar.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.33448/rsd-v11i17.38908
+S2ID: 93ebf53f61d404231f79fe632c2a8aa2ab6d4835</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_622">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/622/Daiany Dos Reis Santana et al. - 2022 - Análise do abandono eou evasão escolar na EJA em .pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://rsdjournal.org/index.php/rsd/article/download/38908/32131</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:27:44</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_619">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>3</prism:volume>
+                <dc:title>Recima21</dc:title>
+                <dc:identifier>DOI 10/gsm66s</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Vitor Borges Monteiro</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>João Wagner Martins</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_623"/>
+        <dc:title>CAUSAS DA EVASÃO ESCOLAR NO ENSINO MÉDIO E ENSINO SUPERIOR: QUAL A INTERSEÇÃO?</dc:title>
+        <dcterms:abstract>Uma série de estudos se dedicam ao estudo da evasão escolar na etapa de ensino fundamental e médio, indubitavelmente devido ao apelo constitucional da universalização do ensino nestes ciclos educacionais. Entretanto, deixa uma lacuna que vem sendo preenchida lentamente por estudos recentes que se dedicam a entender o comportamento da evasão no ensino superior. Apesar de evidente que houve uma mudança significativa do perfil do universitário brasileiro a partir do sistema de cotas, sabe-se que a heterogeneidade dentro das universidades ainda prevalece. Nesse sentido, o objetivo do trabalho consiste em realizar um levantamento bibliográfico sobre a evasão nos ensinos médio e superior no Brasil e discutir as causas da evasão e comparar suas peculiaridades em cada etapa. Através de um infográfico que mapeia as variáveis por etapa de ensino no tempo, conclui-se que no Ensino Médio as causas da evasão estão relacionadas aos problemas externos ao aluno, como ambiente socioeconômico e cultural, políticas públicas educacionais e também àqueles pertinentes a escola, como relação professor e aluno e tamanho da escola. Já a evasão universitária absorve problemas relacionados a questões pessoais, como aptidão ao curso, filhos, trabalho, distancia etc.</dcterms:abstract>
+        <dc:date>2022-03-17</dc:date>
+        <dc:description>0 citations (Crossref) [2023-08-25]
+DOI: 10.47820/recima21.v3i3.1203
+MAG ID: 4220811124
+S2ID: 0119413aeb37ba75adb17e4a878b479abe2fa50c</dc:description>
+        <bib:pages>e331203-e331203</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_623">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/623/Vitor Borges Monteiro e João Wagner Martins - 2022 - CAUSAS DA EVASÃO ESCOLAR NO ENSINO MÉDIO E ENSINO .pdf"/>
+        <dc:title>Texto completo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://recima21.com.br/index.php/recima21/article/download/1203/982</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-08-25 00:27:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
