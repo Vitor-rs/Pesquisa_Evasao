@@ -1,0 +1,956 @@
+Submission: 20/11/2020; Camera ready: 15/03/2021;
+
+1st round notif.: 28/12/2020; Edition review: 22/03/2021;
+
+Revista Brasileira de Informática na Educação – RBIE Brazilian Journal of Computers in Education (ISSN online: 2317-6121; print: 1414-5685) http://br-ie.org/pub/index.php/rbie
+
+New version: 17/01/2021; Available online: 03/04/2021;
+
+2nd round notif.: 03/04/2021; Published: 03/04/2021;
+
+Análise de Dados e Serviços Inteligentes Aplicados na Educação à Distância: um mapeamento sistemático
+Title: Data Analysis and Intelligent Services Applied in Distance e Education: a systematic mapping
+
+Lidia Martins da Silva Applied Computing Graduate Program (PPGCA), University of Vale do Rio dos Sinos (UNISINOS) São Leopoldo, Rio Grande do Sul, Brasil lidiasilva@edu.unisinos.br
+
+Jorge L. V. Barbosa Applied Computing Graduate Program (PPGCA), University of Vale do Rio dos Sinos (UNISINOS), São Leopoldo, Rio Grande do Sul, Brasil jbarbosa@unisinos.br
+
+Sandro José Rigo Applied Computing Graduate Program (PPGCA), University of Vale do Rio dos Sinos (UNISINOS), São Leopoldo, Rio Grande do Sul, Brasil rigo@unisinos.br
+
+Resumo
+A utilização de ambientes virtuais contribui na geração de dados educacionais e a aplicação de métodos e técnicas de análise nesses dados gera informações valiosas aos gestores educacionais. Estas informações possibilitam tomadas de decisões direcionadas e personalizadas, de forma a melhorar o aprendizado do aluno. A oferta de serviços inteligentes ajuda as instituições a minimizarem as reprovações escolares e as evasões nos cursos online. Este artigo apresenta os resultados de um mapeamento sistemático da literatura que visa identificar como a Learning Analytics (LA) e os serviços inteligentes vêm sendo aplicados em ambientes de educação à distância (EAD). Foram realizadas buscas de 2010 até junho de 2020 nas bases IEEE Xplore Digital Library, ACM Digital Library, Scopus, Springer e Sciencedirect. A busca inicial resultou em 55.832 artigos e após aplicação dos critérios de inclusão e exclusão foram selecionados 51 artigos para leitura completa com o intuito de responder as questões de pesquisa. Os principais resultados obtidos são: dos 51 artigos selecionados foi constatado que 39% aplicaram métodos e técnicas de análise em ambientes de EAD; 39% ofereceram serviços inteligentes no âmbito da EAD e 18% aplicaram métodos e técnicas de análise focados nos históricos de registros de logs deixados pelos alunos quando interagiram em ambientes virtuais de aprendizagem. Palavras-Chave: Educação a Distância; Análise de aprendizagem; Mapeamento sistemático; Ciência de Dados; Mineração de dados educacionais.
+
+Abstract
+The use of virtual environments contributes to the generation of educational data and the application of methods and techniques analysis of this data generate valuable information to educational managers. This information enables targeted and personalized decision making in order to improve student learning. The provision of intelligent services helps institutions to minimize school failures and dropouts in online courses. This article presents the results of a systematic mapping of the literature that aims to identify how the Learning Analytics (LA) and intelligent services have been applied in distance education environments (EAD). Searches were conducted from 2010 to June 2020 in the IEEE Xplore Digital Library, ACM Digital Library, Scopus, Springer and ScienceDirect. The initial search resulted in 55,832 articles and after applying the inclusion and exclusion criteria, 51 articles were selected for full reading in order to answer the research questions. The main results obtained are: of the 51 selected articles, 39% applied methods and analysis techniques in EAD; 39% offered intelligent services under the EAD and 18% applied methods and analysis techniques focused on the records of logs left by students when interacted in virtual learning environments. Keywords: Distance Education; Learning Analytics; Systematic Mapping; Data Science; Educational Data Mining.
+Cite as: Silva, L. M.& Barbosa, J. L. V., & Rigo, S. J. (2021) Data Analysis and Intelligent Services Applied in Distance e Education: a systematic mapping (Análise de Dados e Serviços Inteligentes Aplicados na Educação à Distância: um mapeamento sistemático). Brazilian Journal of Computers in Education (Revista Brasileira de Informática na Educação - RBIE), 29, 331-357. DOI: 10.5753/RBIE.2021.29.0.331
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+1 Introdução
+Estamos vivendo um período de significativas mudanças na sociedade contemporânea — especialmente, pelo surgimento de tecnologias digitais que perpassam e afetam às diferentes instâncias sociais, como é o caso da esfera educacional. Com isso, a educação tem sido provocada a repensar e dar um novo significado às suas práticas pelo uso conjuntivo de múltiplas tecnologias nos ambientes escolares, como recursos subsidiadores para os processos de ensino-aprendizagem na era digital.
+Conforme indicado por Brown (2011), o avanço do ensino a distância se configura pelo aporte tecnológico disponível em Ambientes Virtuais de Aprendizagem (AVA), também conhecidos como Sistemas de Gerenciamento de Aprendizagem (SGA), que potencializam o dinamismo, a proatividade e a personalização do processo de ensino-aprendizagem, permitindo a interação entre os agentes do processo e a interatividade do material disponibilizado para os estudos. De forma geral, o número de dispositivos conectados apresentou crescimento exponencial e, se o foco for colocado sobre o acesso aos AVA, este fenômeno também se aplica, gerando grandes volumes de dados conforme discutido por Cambruzzi, Rigo e Barbosa (2015). Os dados gerados pelos AVA podem ser utilizados para analisar o comportamento e prever o desempenho dos alunos e obter melhorias no processo educacional.
+Learning Analytics (LA) é considerada por Dias (2017) como sendo: coleta, análise e uso de grandes quantidades de dados e informações dos alunos para aprimorar a compreensão de comportamentos e contextos deles e melhorar os resultados de aprendizado, aumentando a eficiência e a eficácia da instituição. Já para Fergunson, Rebecca et al. (2016), LA consiste na coleta e análise de dados de uso associados com o aprendizado do aluno. Por sua vez Heidrich et al. (2014) indicam que LA é definida como a medida, coleta, análise e relato dos dados sobre os alunos e seus contextos de aprendizagem com o objetivo de entender e otimizar o aprendizado e o ambiente em que aquele ocorre.
+De acordo com McAfee e Brynjolffsson (2012), sistemas de computador usados para gerenciar alunos em escolas e universidades ao redor do mundo estão aumentando e os dados gerados pelo uso desses sistemas como Enterprise Resource Planning (ERP) e Learning Management System (LMS) têm informações ricas e úteis que podem ser usadas estrategicamente para apoiar o diagnóstico do comportamento do aluno.
+Segundo Siemens (2013) o uso de LA permite lidar com aspectos como visualização das notas e interação dos alunos, geração de padrões de comportamento e criação de apoio alternativo às atividades de aprendizagem.
+O objetivo da LA é observar e compreender os comportamentos de aprendizagem a fim de permitir intervenções apropriadas e, essas intervenções podem ser por meio de sistemas inteligentes. Segundo Brown (2011) os relatórios que um aplicativo LA gera podem ser úteis para os instrutores (atividades e progresso dos alunos), para os alunos (feedback do seu progresso) e para os administradores (por exemplo, possíveis agregações e informações sobre o andamento de cursos).
+Este artigo apresenta os resultados de um mapeamento sistemático da literatura que visa compreender como a LA e os serviços inteligentes vêm sendo aplicados em ambientes de educação à distância. A pesquisa foi realizada em 5 bases de dados resultando em 55.832 artigos e após aplicações de critérios de inclusão e exclusão, 51 artigos foram selecionados para leitura completa e análises com o objetivo de responder as questões de pesquisa delineadas no processo metodológico.
+O artigo está estruturado em quatro seções. A primeira seção contextualiza o tema e apresenta o cenário atual. Por sua vez, a seção 2 define a metodologia de pesquisa. A seção 3 comenta os
+332
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+resultados para cada questão de pesquisa. A seção 4 apresenta as considerações finais e, por fim, são apresentadas as referências.
+
+2 Procedimentos Metodológicos
+
+Para o desenvolvimento deste trabalho utilizou-se como metodologia o mapeamento sistemático pois, de acordo com Budgen, Brereton e Kitchenham (2008) e Perterson, Vakkalanka e Kuzniarz (2015), essa metodologia proporciona uma visão geral dos estudos e seus resultados.
+O mapeamento apresenta as seguintes etapas em sua execução: a) definição das questões de pesquisa; b) definição do processo de busca; c) definição dos critérios de inclusão; d) definição dos critérios de exclusão; e) execução das análises e f) classificação dos resultados.
+
+2.1 Questões de Pesquisa
+Para condução do processo de mapeamento sistemático foram definidas questões de pesquisa (Tabela 1), sendo elas: Questões Gerais (QG), Questão Focal (QF) e Questões Estatísticas (QE).
+
+ID QG1 QG2
+QG3
+
+Tabela 1: Questões de Pesquisa
+Questões de Pesquisa Quais métodos/técnicas de análise de dados vêm sendo aplicados em ambientes EAD?
+Quais tipos de serviços inteligentes vêm sendo oferecidos no âmbito da EAD? Quais estratégias vêm sendo aplicadas para obtenção de benefícios para discentes, docentes e gestores
+por meio da análise de dados no âmbito da EAD?
+
+QF1
+
+Existem métodos/técnicas de análise de dados que vem utilizando históricos de registros de logs dos alunos no âmbito da EAD?
+
+QE1
+
+Onde os trabalhos foram desenvolvidos?
+
+QE2
+
+Em quais bases de dados os trabalhos foram publicados?
+
+2.2 Termos de buscas
+O estudo de termos para a definição da string de busca baseou-se nas palavras: Distance, Education, Learning, Educational, environment, analysis, Data Science e Data mining. Os termos definidos foram unidos pelas expressões booleanas AND e OR e divididas em três conjuntos de interesses. A fim de estabelecer os interesses da pesquisa, foi definida a seguinte string de busca, representada na Tabela 2:
+
+333
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Termos Principais Distance Learning Learning Analytics
+
+Tabela 2: Definição dos termos da pesquisa
+Termos da pesquisa
+(Distance learning OR Distance education OR E-Learning OR online education OR Educational technology OR virtual learning environment OR learning management
+system)
+AND (Learning Analytics OR learning analytic OR data analysis OR data Science OR educational data mining OR learning data mining OR academic data mining OR school
+data mining)
+
+Intelligents Services
+
+AND (Smart services OR smart service OR smart methods OR intelligent service OR intelligents services OR intelligent task OR intelligents systems OR smart processes OR
+intelligent processes)
+
+2.3 Definição de critérios para filtro dos resultados
+O estudo considerou os seguintes critérios de inclusão (CI):
+• CI1: Publicações com conteúdos completos e acesso livre;
+• CI2: Publicações em conferências, journals e workshops.
+• CI3: Publicações que possuem métodos de análise de dados aplicados na EAD e/ou;
+• CI4: Publicações que ofereçam algum tipo de serviço inteligente para a área de EAD;
+• CI5: Publicações de 2010 até junho de 2020.
+Os seguintes critérios de exclusão (CE) foram usados:
+• CE1: Publicações que antecedem o ano de 2010;
+• CE2: Publicações com Idioma diferente do Inglês;
+• CE3: Teses, dissertações, resumos, livros e revisões sistemáticas;
+• CE4: Publicações não relacionadas ao tema;
+• CE5: Artigos relacionados a cursos de curta duração (MOOCS); e
+• CE6: Publicações duplicadas.
+A Figura 1 mostra o processo completo de filtragem. A filtragem inicial removeu as impurezas utilizando os critérios de exclusão EC1, EC2 e EC3. Em seguida, os textos foram filtrados pelo critério EC4 considerando título e palavras-chave. Finalmente, os estudos foram filtrados de acordo com os resumos usando os critérios EC4 e EC5. Esse processo resultou em 58 artigos. Sete textos duplicados foram excluídos segundo o critério EC6, resultando em 51 obras. Os passos de adição por heurística e filtro pelo método de três passos não incluiu artigos, resultando a filtragem completa em 51 artigos que foram lidos na íntegra para garantir sua adequação nesse estudo de mapeamento sistemático.
+
+334
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Figura 1: Busca inicial, aplicação de critérios, junção, remoção e resultado.
+3 Resultados e Discussões
+A Tabela 3 (apêndice A) apresenta a lista dos artigos selecionados, contendo autores, ano de publicação, país dos autores, base de dados da publicação do artigo e resumo sobre o foco do artigo.
+A próxima seção discute os resultados da revisão da literatura, descrevendo os artigos que responderam às perguntas da pesquisa de acordo com a metodologia de análise em ordem cronológica de publicação.
+3.1 QG1 – Quais métodos/técnicas de análise de dados (Data Science) vêm sendo aplicados em ambientes de educação à distância?
+Dentre os 51 artigos selecionados, 39% contêm métodos/técnicas de análise de dados aplicados à educação à distância.
+Também se observou que alguns autores desenvolveram plataforma de mineração (43), sistemas orientados para análise de resultados (51, 27), métodos baseados em classe estatística (42), criaram estruturas de softwares (34) estruturas de previsão (37), arquitetura de infraestrutura (5), modelo comportamental (7), implementaram algoritmos para análises de dados (40), técnicas de Big Data (38) e LA (45).
+Os autores Kotsiantis, Patriarcheas e Xenos (2010) propuseram um sistema que combina uma versão incremental do Naive Bayes, os algoritmos 1-NN e WINNOW, usando a metodologia de votação para prever o desempenho dos alunos em um sistema de ensino à distância. Com a ajuda da técnica proposta, os tutores estão em posição de saber quais de seus alunos concluirão um módulo ou um curso com precisão.
+Chang e Chu (2010) apresentaram um modelo comportamental de aprendizagem baseado em LBPN (learning behavioral Petri nets) para simular uma situação em que alunos participam de um curso de e-learning e, em seguida, gerar seus padrões comportamentais que podem ser usados para recomendar conteúdos de aprendizagem apropriados para alunos de maneira automática e eficiente.
+335
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Zorrila, Garcia e Álvarez (2010) apresentaram um sistema orientado para análise dos resultados e genérico para diferentes plataformas de e-learning. O sistema foi projetado com base em uma arquitetura modular para executar as tarefas de pré-processamento relacionadas à aplicação de algoritmos de mineração de dados e para armazenar esses dados no banco de dados do data warehouse. Os autores fizeram uso de 3 (três) pacotes de software de mineração de dados de código aberto, sendo RapidMiner, Weka e Keel.
+Graf, Andy e Arnold (2011) apresentaram uma Ferramenta de Análise Acadêmica (AAT) desenvolvida no projeto Moodle Analytics que incorpora funcionalidade para analisar dados relacionados ao comportamento dos alunos nos sistemas de aprendizagem.
+Yang et al. (2014) propuseram um método de previsão de estilo de aprendizagem baseado em uma técnica de reconhecimento de padrões, que funciona como uma forma de middleware que pode ser aplicado a outros sistemas de tutorias inteligentes, enquanto pode processar dados dependentes de tópicos para fazer o rastreamento e atualizar os resultados do estilo de aprendizado de maneira recursiva.
+Por sua vez, Lara et al. (2014) apresentaram um Sistema de Mineração de Dados Educacionais (SEDM), baseado no estudo de dois grupos de alunos para cada curso, sendo: 1) os alunos que abandonam o curso antes de fazer o exame final e 2) os que não abandonam, passam na avaliação continuam e realizam o exame final. Foram utilizados os dados de log de operações dos alunos armazenados em um banco de dados interno do Moodle utilizando técnicas de mineração de dados tais como: agrupamento, associação, classificação e análise de tempo, com o objetivo de descobrir os padrões representativos de cada grupo.
+Rayón, Guenaga e Núñez (2014) projetaram e desenvolveram um sistema (SCALA Avaliação de Competência Escalável), um sistema de análise que integra como o usuário interage com recursos e como alunos e professores interagem entre eles. O sistema rastreia os dados para apoiar avaliação de competência e em termos de descoberta de conhecimento, os resultados são obtidos aplicando algoritmos de mineração de regras de agrupamento e associação.
+Sorour, Goda e Mine (2015) propuseram novos métodos baseados em uma classe estatística latente "Tópicos" para a tarefa de previsão da nota do aluno; os métodos convertem os comentários dos alunos usando análise semântica latente, análise semântica latente probabilística e geram modelos de previsão usando máquina de vetor de suporte e Rede Neural Artificial para prever as notas finais dos alunos.
+Rashidah et al. (2016) introduziram uma nova abordagem denominada Mecanismo de Análise de Feedback distribuído para Big Data baseado em conhecimento que pode ser aplicável ao aprimoramento dos conceitos associados aos mecanismos de e-learning na plataforma de nuvem.
+Os autores Omar e Abdesselam (2017) realizaram estudos com os algoritmos de clustering aplicados a uma plataforma de e-learning. Foram aplicados os algoritmos nos traços de interação com uma plataforma de e-learning e, especificamente, em um arquivo de log extraído da plataforma de e-learning da Universidade de Bechar e realizados experimentos em alguns algoritmos de classificação, para testar e comparar o desempenho desses algoritmos. Trabalhouse com três algoritmos que tocam as duas grandes famílias de classificação (particionamento, hierárquica): K-means, CLARA e BIRCH.
+Okubo et al. (2017) usaram um método para prever notas finais de alunos por uma Rede Neural Recorrente (RNN) a partir dos dados de registro armazenados nos sistemas educacionais. Os dados do registro representavam as atividades de aprendizagem dos alunos que usavam o sistema de gerenciamento de aprendizagem, o sistema de portfólio eletrônico e o sistema de ebook.
+
+336
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Os autores Chaffai, Hassoun e Anoun (2017) criaram uma arquitetura da infraestrutura de pipeline ETL escalável, usando o Spark no Hadoop Yarn como seu principal mecanismo de computação que pode fornecer dados novos para painéis reativos, a fim de resumir as interações dos alunos. O design do sistema ilustra o pipeline de dados a partir do qual coletam dados e transformam, analisam, armazenam e implantam o modelo em produção para relatar os resultados da análise. Esses autores utilizaram uma abordagem baseada no conceito de Big Data para projetar um pipeline de dados moderno em tempo real.
+Ros et al. (2017) implementaram um algoritmo PCA (Principal Component Analysis) para reduzir os parâmetros e estudar os mais representativos na classificação do comportamento dos alunos, reduzindo assim a dimensionalidade dos conjuntos de dados.
+Hussain et al. (2018) aplicaram técnica estatística de machine learning (ML) usando o campo da análise preditiva. O modelo prediz o resultado ou o comportamento com base em dados de registros no moodle, identificando alunos com baixo desempenho e inativos permitindo ao instrutor tomadas de decisões inteligentes antes do exame final.
+Os autores Olivé et al. (2018) propuseram a criação de estruturas de softwares para desenvolvimento de modelos de previsão de mineração de dados Educacionais (EDM) e LA que são capazes de prever quais alunos correm o risco de abandonar um curso antes de seu término. Esses modelos permitem que os educadores tomem medidas de intervenção apropriada antes do final do curso.
+Qu et al. (2018) também criaram uma estrutura de previsão de desempenho do aluno, que inclui processamento de dados usando dados no data warehouse, propuseram um método baseado em perceptron multicamada supervisionado por camada (MLP) para prever o desempenho dos alunos e as supervisões fornecidas a cada camada oculta correspondente do MLP para melhorar o desempenho do aluno.
+Peñafiel et al. (2018) usaram uma aplicação da mineração de dados usando técnicas computacionais, como mineração de texto e análise de sentimentos, com o objetivo de avaliar as questões em aberto das pesquisas online realizadas pelos professores da universidade. Os resultados permitiram obter informações relevantes em relação ao tempo que os professores utilizam ao incorporar plataformas online no processo de ensino aprendizagem, aceitação ou rejeição do uso dessas ferramentas pelos professores.
+Clarizia et al. (2018) propuseram o uso do gráfico misto de termos (MGTs), obtido pelo uso da abordagem de alocação de diretórios latentes, como ferramenta para a classificação de sentimentos. O método baseia-se na construção dos (MGTs) de referência a partir de documentos rotulados de acordo com seus sentimentos. O método proposto foi aplicado no e-learning para medir o humor de uma sala de aula em relação a tópicos permitindo ao professor a opção de ajustar melhor sua abordagem de ensino.
+Spatiotis et al. (2018) apresentaram uma plataforma de mineração de opinião capaz de classificar as opiniões dos participantes nas aulas de educação de acordo com sua polaridade e analisá-las para contribuir para a melhoria do procedimento de ensino.
+Islam, Soddiqui e Aljohani (2019) fizeram uma exploração dos vários aspectos dos dados de interação do aluno usando técnicas de mineração de dados como agrupamento e associação para identificar padrões relevantes de comportamentos e possíveis atributos-chave que têm maior grau de influência nos alunos do ensino à distância fornecendo base para prever o desempenho final acadêmico que se espera de um aluno.
+O objetivo da pesquisa de Altaf, Soomro e Rawi (2019) foi avaliar se as Redes Neurais podem ser usadas para prever o desempenho dos alunos com base nos dados do arquivo de log de um Sistema de Gerenciamento de Campus (CMS).
+337
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Uzir et al. (2020) apresentaram uma nova metodologia de análise de aprendizado que combina três técnicas complementares - cluster hierárquico aglomerativo, análise epistêmica de redes e mineração de processos. A metodologia permite a identificação e a interpretação da aprendizagem autorregulada em termos do uso de estratégias de aprendizagem.
+Guo, Yan e Li. (2020) apresentaram um método baseada em LA, que possui uma estrutura projetada e implementada para atender o problema de previsão da atitude dos alunos em relação a certas aulas de aprendizado misto.
+Para melhorar o desempenho da previsão, os autores introduziram a análise de sentimentos para transformar dados textuais em pontuação numérica de sentimento, também realizaram comparações entre vários algoritmos típicos de classificação (SVM) e regressão (SVR) que apresentaram melhor desempenho de previsão.
+O artigo dos autores Jovanović et al. (2020) teve como objetivo estabelecer um modelo explicativo do comportamento do aluno, identificando padrões na atividade online, oferecendo novas oportunidades para identificar padrões que podem ser facilmente interpretados pelos instrutores, resultando em oportunidades para intervenções que envolvem julgamento humano.
+A Tabela 4 apresenta o resultado dos artigos mapeados que apresentaram métodos e técnicas de análise de dados que estão sendo aplicadas em ambientes de EAD.
+Os métodos e técnicas em 39% dos artigos mapeados são de mineração de dados, algoritmos de classificação, associação, clusterização, sistemas orientados a análises, estruturas/arquiteturas de softwares, técnicas computacionais, métodos baseados em classe estatística, modelos explicativos, ferramentas de análise, redes neurais artificiais, Big Data e LA.
+
+Tabela 4: Relação dos artigos com métodos/técnicas de análise de dados
+
+Autores
+
+Métodos/Técnicas de análise de dados
+
+Redes Neurais para prever o desempenho dos alunos com base nos dados do
+
+1.Altaf, Soomro e Rawi (2019)
+
+arquivo de log.
+
+5. Chaffai, Hassoun e Anoun (2017)
+8. Chang e Chu (2010)
+
+Arquitetura da infraestrutura de pipeline ETL escalável.
+Modelo comportamental de aprendizagem baseado em LBPN (learning behavioral Petri nets).
+
+9. Clarizia et al. (2018)
+
+Gráfico misto de termos (MGTs), obtido pelo uso da abordagem de alocação de diretórios latentes, como ferramenta para a classificação de sentimentos.
+
+16. Graf, Andy e Arnold (2011)
+
+Ferramenta de Análise Acadêmica (AAT) desenvolvida no projeto Moodle Analytics.
+
+17. Guo, Yan e Li. (2020)
+
+Método baseada em LA, que possui uma estrutura projetada e implementada para atender o problema de previsão da atitude dos alunos.
+
+20. Hussain et al. (2018)
+
+Técnica estatística de Machine Learning (ML) usando o campo da análise preditiva.
+
+22. Islam, Soddiqui e Aljohani (2019)
+24. Jovanović et al. (2020)
+
+Técnicas de mineração de dados como agrupamento e associação.
+Modelo explicativo do comportamento do aluno, identificando padrões na atividade online.
+
+27. Kotsiantis, Patriarcheas e Sistema que combina uma versão incremental do Naive Bayes, os algoritmos 1-
+
+Xenos (2010)
+
+NN e WINNOW, usando a metodologia de votação.
+
+30. Lara et al. (2014)
+
+Sistema de Mineração de Dados Educacionais (SEDM).
+
+33. Okubo et al. (2017)
+
+Método para prever notas finais de alunos por uma Rede Neural Recorrente (RNN) a partir dos dados de registro armazenados nos sistemas educacionais.
+
+338
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+34. Olivé et al (2018) 35. Omar e Abdesselam
+(2017) 36. Peñafiel et al. (2018)
+37. Qu et al. (2018)
+38. Rashidah et al. (2016) 39. Rayón, Guenaga e Núñez
+(2014)
+
+Estruturas de softwares para desenvolvimento de modelos de previsão de mineração de dados Educacionais (EDM) e LA.
+Algoritmos de clustering aplicados a uma plataforma de e-learning.
+Aplicação da mineração de dados usando técnicas computacionais, como mineração de texto e análise de sentimentos.
+Estrutura de previsão de desempenho do aluno, que inclui processamento de dados usando dados no data warehouse.
+Abordagem denominada Mecanismo de Análise de Feedback distribuído para Big Data.
+Sistema (SCALA - Avaliação de Competência Escalável por meio de uma abordagem de Análise de Aprendizagem).
+
+40. Ros et al. (2017)
+
+Algoritmo PCA (Principal Component Analysis)
+
+42. Sorour, Goda e Mine (2015)
+43. Spatiotis et al. (2018)
+45. Uzir et al. (2020)
+48. Yang et al. (2014) 51. Zorrila, Garcia e Álvarez
+(2010)
+
+Métodos baseados em uma classe estatística latente "Tópicos" para a tarefa de previsão da nota do aluno.
+Plataforma de mineração de opinião capaz de classificar as opiniões dos participantes nas aulas.
+Metodologia de análise de aprendizado que combina três técnicas complementares - cluster hierárquico aglomerativo, análise epistêmica de redes
+e mineração de processos.
+Método de previsão de estilo de aprendizagem baseado em uma técnica de reconhecimento de padrões.
+Sistema orientado para análise dos resultados, genérico para diferentes plataformas de e-learning.
+
+3.2 QG2 – Quais tipos de serviços inteligentes vêm sendo oferecidos no âmbito da EAD?
+Dentre os artigos mapeados, 43% apresentaram algum serviço inteligente que está sendo utilizado no âmbito da EAD.
+Os tipos de serviços inteligentes encontrados são categorizados como: sistemas de gerenciamentos de aprendizagem com recursos exclusivos (45), abordagem de recomendação (41, 25, 44), estrutura de aprendizado (19), arquiteturas que fornecem informações úteis de alunos (32, 50), sistemas de tomadas de decisões (13), linguagem específica de domínio (4), sistema inteligente (47, 14), sistema de aprendizado (10), algoritmos personalizados (28, 21), protótipo de indicadores (15), índice de estilo de aprendizagem (18), sistema de captura (29), modelo personalizado de análise (6), modelo de ontologia (23), ferramenta de avaliação (12), interface do usuário personalizada (3), tutor individualizado de inteligência artificial (44) e sistemas de recomendações (46, 49, 2, 8, 11).
+A seguir são apresentados os resumos dos tipos de serviços inteligentes utilizados na EAD em ordem cronológica.
+Florian et al. (2011) apresentaram um estudo baseado em dois modelos: a Teoria da Atividade de Engeström e o modelo Atuador-Indicador como pilares para implementar um modelo de aprendiz baseado em atividades no Moodle.
+Os autores desenvolveram um protótipo que implementa indicadores como exemplos de aplicações analíticas de aprendizado. O processo de prototipagem indicou que o rastreamento de atividades do Moodle inclui dados sobre estruturas sociais mais complexas no decorrer do AVA.
+O artigo apresentado por Anaya, Radhika e Manohara Pai (2010) teve como objetivo entender as características dos alunos e gerar a interface do usuário personalizada conforme seus
+339
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+estilos de aprendizado, baseados em análise do log da web. O Modelo de Estilo de Aprendizagem Felder-Silverman (FSLSM) é uma combinação de três outros modelos que combina o melhor de todos esses modelos. O modelo FSLSM categoriza os alunos em um conjunto predefinido de classes de estilo de aprendizagem. O FSLSM possui oito categorias ou classes de aprendizes: Sensível, Intuitivo, Global, Sequencial, Verbal, Visual, Reflexivo e Ativo.
+Thai-Nghe et al. (2010) propuseram uma nova abordagem que utiliza técnicas de sistema de recomendação para mineração de dados educacionais, especialmente para prever o desempenho do aluno. Para validar essa abordagem, foram comparadas técnicas de sistema de recomendação com métodos tradicionais de regressão, como regressão logística e linear, usando dados educacionais para sistemas de tutoria inteligentes.
+O autor Hamada (2012) desenvolveu uma versão aprimorada de um índice de estilo de aprendizagem, levando em consideração as diferenças culturais. O modelo foi implementado de uma maneira que permite aos alunos verificar facilmente suas preferências de aprendizado.
+Além disso, os professores podem ter uma visão mais ampla das preferências de aprendizado de seus alunos. Os autores também integraram o modelo a um sistema de e-learning baseado na tecnologia Java2D que contém um conjunto intensivo de materiais de aprendizado para dar suporte a todos os tipos de alunos.
+Kozierkiewicz-Hetmańska e Zyśk (2013) propuseram um método para determinar um cenário de aprendizado de abertura com base na técnica de otimização de colônias de formigas. O algoritmo tenta escolher o material de aprendizagem mais adequado aos estilos de aprendizagem do aluno e ao nível de conhecimento atual armazenado no perfil do aluno. O método para determinar um cenário de aprendizado inicial exigia a definição de um perfil de aluno e uma representação de conhecimento.
+Anaya, Luque e Garciá-Saiz (2013) propuseram um sistema de recomendação baseado em um ID no contexto de aprendizado colaborativo no ambiente de e-learning. A solução de ID forneceu uma tabela de decisão de recomendação, que alerta sobre situações problemáticas.
+Balderas et al. (2013) desenvolveram uma linguagem específica de domínio para personalizar as avaliações de aprendizado online no Moodle. Os autores Implementaram EvalCourse, um sistema de computador que executa consultas escritas nessa linguagem, fornecendo na saída as informações solicitadas. Dessa forma, os professores podem recuperar facilmente indicadores de informações armazenadas nos registros de atividades do Moodle sem nenhum conhecimento técnico em bancos de dados ou programação de computadores.
+Dimopoulos, Petropoulu e Retalis (2013) apresentaram uma ferramenta de avaliação, chamada Rubrica Enriquecida de análise de Aprendizagem (LAe-R), que foi desenvolvida como um plug-in do Moodle. O LAe-R permite que os professores criem facilmente “rubricas enriquecidas” contendo critérios e níveis de classificação relacionados. Para isso são utilizados dados extraídos da análise da interação dos alunos e do comportamento de aprendizagem em um curso Moodle, tais como o número de mensagens postadas, horários de acesso ao aprendizado material e notas de tarefas.
+Manhães, Cruz e Zimbrão (2014) forneceram aos gestores e acadêmicos de universidades públicas brasileiras, não especialistas em EDM, uma arquitetura WAVE, que fornece informações úteis sobre o desempenho de estudantes de graduação e prevê aqueles que estão em risco de abandono do sistema educacional.
+Sharma e Ahuja (2016) apresentam uma abordagem integrada de recomendação semântica usando ontologia para recomendar conteúdo de aprendizagem relevante e personalizado para os alunos com base em quatro abordagens básicas:
+
+340
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+1. Abordagem de recomendação baseada em perfil de usuário;
+2. Recomendação de pré-requisito do caminho de aprendizagem recomenda o conteúdo do curso, que deve ser aprendido antes de se obter um conteúdo específico do curso;
+3. Recomendação de filtragem colaborativa e,
+4. Recomendação baseada em semelhança semântica.
+Venugopalan, Srinath e Rodrigues (2016) propõem um sistema de recomendação baseado em conteúdo, abalizado na modelagem pedagógica de conteúdo, expandindo a consulta com base na taxonomia e nos detalhes necessários. O sistema de recomendação classifica as consultas do usuário com base no conteúdo disponível no repositório e encontra a melhor correspondência.
+El Fouki, Amni e El Kadir (2017) propuseram um sistema de tomada de decisão que ajuda os instrutores a responder a problemas usando técnicas gerais inteligentes aplicadas aos dados coletados em plataformas de e-learning.
+El Moustamid, Em-Naimi e El Bouhdidi (2017) desenvolveram um sistema capaz de analisar o perfil dos alunos e indexar vídeos na Web, a fim de oferecer aos alunos um banco de dados com cursos que correspondem aos seus níveis. Os autores propuseram uma arquitetura de um sistema de recomendação de cursos multimídia, que ajuda professores a avaliar os alunos e identificar suas lacunas, além de ajudar a encontrar os cursos que correspondem aos seus níveis, sem se perder no grande volume de vídeos disponíveis na Internet.
+O estudo de Lagman e Mansul (2017) foi conduzido principalmente com aprendizado individualizado e personalizado, adaptado a requisitos específicos e preferências de aprendizado. A pesquisa se concentra nas avaliações dos alunos e da aprendizagem como seu principal componente-chave dos processos de e-learning. O sistema captura caminhos de e-learning de cada aluno e determina tópicos e assuntos difíceis, nos quais é essencial fornecer intervenção acadêmica aos alunos. O sistema serve como ferramenta educacional complementar para ajudar os alunos a melhorar seu desempenho acadêmico.
+A contribuição de Dahdouh et al. (2018) foi o desenvolvimento de uma nova abordagem para sistemas de aprendizado online baseados em tecnologias de Big Data na computação em nuvem. Os autores sugeriram uma metodologia para usar a enorme quantidade de dados produzidos pelas plataformas de aprendizado online.
+Zakzewska (2018) apresentaram um sistema de recomendação baseado em agentes, que, para cada novo aluno, sugere um grupo de estudantes de perfis semelhantes e, consequentemente, indica recursos de aprendizagem adequados. Supõe-se que os grupos de estudantes já tenham sido criados e que consistem em aprendizes de características semelhantes, como estilos cognitivos, preferências de usabilidade ou cujos comportamentos históricos eram muito parecidos. As recomendações são baseadas em três coleções de dados: dos atributos dos membros dos grupos, dos materiais de ensino equipados com bandeiras indicando os alunos-alvo e o de um novo recurso do aluno.
+Chanaa e Faddouli (2018) propuseram um modelo personalizado com 3 componentes principais, análise sentimental, análise cognitiva e estilo de aprendizagem, que utiliza as trilhas e a pegada dos usuários quando utilizam um sistema de gerenciamento de aprendizado a fim de encontrar informações convenientes sobre os alunos e explorá-las com sucesso, além de melhorar a taxa de conclusão do curso e fornecer a eles conteúdos adequados que atendam às suas necessidades e preferências individuais.
+Lavoie e Proulx (2019) desenvolveram um sistema de gerenciamento de aprendizagem (LMS) com recursos exclusivos orientados para "cursos invertidos" que permite aos alunos assistir vídeos e interagir nos Jupyter Notebooks. O LMS cria automaticamente gráficos de progressão
+341
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+para cada aluno e envia mensagens automáticas relacionadas à sua progressão. Para os instrutores, o LMS cria automaticamente estatísticas sobre a progressão geral das aulas ao longo das aulas e exercícios e permite direcionar alunos em dificuldade, que podem ser ajudados individualmente e diminuir a taxa de falhas.
+Kapembe e Ghislain (2019) apresentaram uma abordagem de recomendação híbrida, baseada no perfil do aluno, na relevância e qualidade dos objetos de aprendizagem para o programa em que o aluno está matriculado e no feedback dos alunos. A abordagem usa as preferências de aprendizagem, o desempenho e os interesses do aluno para recomendar objetos de aprendizagem com base no perfil exclusivo do aluno.
+Huang et al. (2019) propuseram uma nova estrutura de aprendizado de Reforço Profundo para Recomendação de Exercícios (DRE). Na estrutura, foram propostas duas redes Q do exercício (EQN) para selecionar recomendações de exercícios seguindo mecanismos diferentes, ou seja, um EQNM direto com propriedade de Markov e um EQNR sofisticado com maneira recorrente. Também foram aproveitadas três recompensas específicas de domínios para caracterizar os benefícios de fatores como Revisão e Exploração, Suavidade e Engajamento, para permitir que o DRE encontre a estratégia de recomendação ideal.
+Wang, Sun e Chen (2019) propuseram um sistema inteligente de assistente de ensino que substitui a maneira de esperar pela resposta manual, de forma a responder de forma inteligente à pergunta do usuário, para que ele possa obter a resposta imediatamente e continuar aprendendo, o que melhora a continuidade da aprendizagem.
+No artigo apresentado por Jeevamol, Raj e Renumol (2019) verificou-se um modelo de ontologia que engloba o perfil do aluno e os atributos do objeto de aprendizagem, que podem ser usados para a recomendação de conteúdo em uma plataforma de e-learning.
+O modelo de ontologia conceitua as características do aluno e do objeto de aprendizagem que podem ser usadas para recomendação de conteúdo em um ambiente de aprendizado adaptável. São consideradas as características estáticas e dinâmicas de um aluno para modelá-las.
+Os autores Iqbal et al. (2019) propuseram um novo algoritmo, o Kernel Context Recommendender System, que é uma estrutura de mapeamento de kernel flexível, rápida e precisa que reconhece a importância do contexto e incorpora as informações contextuais usando o truque do kernel ao fazer previsões. Foi proposta uma estrutura sensível ao contexto para as versões baseada em usuário e item, usando o conceito de mapeamento do kernel na filtragem colaborativa.
+O algoritmo do sistema de recomendação de mapeamento do kernel é baseado em uma nova técnica de aprendizado de estrutura. Essa estrutura tem flexibilidade para explorar vários contextos relacionados a usuários e itens durante o processo de recomendação, usando diferentes kernels que influenciam o desempenho do sistema, melhorando os fatores preditivos de precisão, escalabilidade e flexibilidade. Foi criado um modelo de processamento automatizado capaz de resolver problemas de aprendizagem sem exigir intervenção humana.
+Também foi desenvolvido um sistema de recomendação de cursos distribuídos para a plataforma de e-learning por Dahdouk, Dakkak Oughdir et al. (2019) com objetivo de descobrir as relações entre as atividades do aluno usando o método de regras de associação para ajudar o aluno a escolher os materiais de aprendizagem mais adequados. Também se utilizou da análise de dados históricos passados das matrículas nos cursos ou dados de registro.
+O artigo discutiu particularmente o conceito de conjuntos de itens frequentes para determinar as regras interessantes no banco de dados de transações. Em seguida, são usadas as regras extraídas para encontrar o catálogo de cursos mais adequados, de acordo com os comportamentos e preferências do aluno. O sistema de recomendação utiliza tecnologias e técnicas de Big Data.
+342
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Chen et al. (2020) criaram um método de recomendação aprimorado denominado Recomendação Adaptativa com base no Online Learning Style (AROLS). Este método é integrado a um modelo abrangente de estilo de aprendizagem para alunos online.
+O método faz recomendações considerando o estilo de aprendizagem como conhecimento prévio. Primeiro, gera grupos de alunos de diferentes estilos de aprendizagem e segundo, os padrões comportamentais representados pela matriz de similaridade de recursos de aprendizado e regras de associação de cada cluster, são extraídos usando o histórico de navegação dos alunos e por fim, cria um conjunto de recomendações personalizadas de tamanho variável de acordo com os resultados de mineração de dados das etapas anteriores.
+Kim e Kim (2020) desenvolveram um tutor individualizado de Inteligência Artificial (IA) como um sistema que integra três DLNs (Developmental Learning Networks) estendendo a rede teoria da ressonância adaptativa profunda (Deep ART) para ajudar um aluno a alcançar um alto nível de sucesso acadêmico sugerindo conteúdos de aprendizagem adequados que correspondem ao currículo educacional padrão.
+Zaoudi e Belhadaoui (2020) propuseram um modelo de LBA (Learner Behavior Analytics) baseado em um sistema chamado SBAN (Score and Behavior Analytics) para analisar os resultados e o comportamento dos alunos, responsável por monitorar e avaliar continuamente o nível real do aluno ao longo de sua trajetória de treinamento. Os autores pretendem detalhar mais esses modelos, propondo uma arquitetura e protótipos que permitirão modelar melhor o sistema LBA, permitindo apresentar um conteúdo mais adaptável aos perfis dos alunos em evolução.
+A Tabela 5 apresenta os tipos de serviços inteligentes que vêm sendo ofertados no âmbito da educação à distância. Os principais serviços oferecidos são categorizados como sistemas de gerenciamentos, sistemas de recomendação semântica, sistemas de tomadas de decisões, sistemas de recomendações, baseado em conteúdo, sistemas de recomendações baseado em agentes, sistemas para análises de perfis, arquiteturas, algoritmos, linguagens específicas de domínios, sistema inteligente de assistente de ensino, tutor inteligente, estruturas e modelos baseados nos perfis de alunos que oferecem recomendações de conteúdo para melhorias no processo de ensino e aprendizagem.
+
+Tabela 5: Relação dos artigos que contêm serviços inteligentes
+
+Autores
+
+Serviços inteligentes
+
+2. Anaya, Luque e Garciá-Saiz (2013)
+3. Anaya, Radhika e Manohara Pai (2010)
+4. Balderas et al. (2013)
+6. Chanaa e Faddouli (2018)
+
+Sistema de recomendação baseado em um ID no contexto de aprendizado colaborativo no ambiente de e-learning.
+Interface do usuário personalizada conforme seus estilos de aprendizado, baseados em análise do log da web.
+Linguagem específica de domínio para personalizar as avaliações de aprendizado online no Moodle.
+Modelo personalizado com 3 componentes principais, análise sentimental, análise cognitiva e estilo de aprendizagem
+
+8. Chen et al. (2020)
+
+Método de recomendação aprimorado denominado Recomendação Adaptativa com base no Online Learning Style (AROLS).
+
+10. Dahdouh et al. (2018)
+
+Sistemas de aprendizado online baseados em tecnologias de Big Data na computação em nuvem.
+
+11. Dahdouk, Dakkak Oughdir et al. Sistema de recomendação de cursos distribuídos para a plataforma de e-
+
+(2019)
+
+learning.
+
+12. Dimopoulos, Petropoulu e Retalis (2013)
+
+Ferramenta de avaliação, chamada Rubrica Enriquecida de análise de Aprendizagem (LAe-R), que foi desenvolvida como um plug-in do Moodle.
+
+13. El Fouki, Amni e El Kadir (2017)
+
+Sistema de tomada de decisão para ajudar os instrutores.
+343
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+14. El Moustamid, Em-Naimi e El Bouhdidi (2017)
+
+Sistema capaz de analisar o perfil dos alunos e indexar vídeos na Web, a fim de oferecer aos alunos um banco de dados com cursos que correspondem aos seus níveis.
+
+15. Florian et al. (2011)
+
+Protótipo que implementa indicadores como exemplos de aplicações analíticas de aprendizado.
+
+18. Hamada (2012)
+
+Modelo de um sistema de e-learning baseado na tecnologia Java2D e que contém um conjunto intensivo de materiais de aprendizado para dar suporte
+a todos os tipos de alunos.
+
+19. Huang et al. (2019)
+
+Estrutura de aprendizado de Reforço Profundo para Recomendação de Exercícios (DRE).
+
+21. Iqbal et al. (2019)
+
+Algoritmo “Kernel Context Recommendender System”, que é uma estrutura de mapeamento de kernel flexível, rápida e precisa que reconhece a
+importância do contexto e incorpora as informações contextuais usando o truque do kernel ao fazer previsões.
+
+Modelo de ontologia que engloba o perfil do aluno e os atributos do objeto 23. Jeevamol, Raj e Renumol (2019) de aprendizagem, que podem ser usados para a recomendação de conteúdo
+em uma plataforma de e-learning.
+
+25. Kapembe e Ghislain (2019)
+
+Recomendação híbrida (RS), baseada no perfil do aluno, na relevância e qualidade dos objetos de aprendizagem para o programa em que o aluno
+está matriculado e no feedback dos alunos.
+
+26. Kim e Kim (2020)
+
+Tutor individualizado de Inteligência Artificial (IA) como um sistema que integra três DLNS (Developmental Learning Networks).
+
+28. Kozierkiewicz-Hetmańska e Zyśk (2013) Florian et al. (2011)
+
+Algoritmo para determinar um cenário de aprendizado de abertura com base na técnica de otimização de colônias de formigas.
+
+29. Lagman e Mansul (2017)
+
+Sistema que captura caminhos de e-learning de cada aluno e pode determinar tópicos e assuntos difíceis, nos quais é essencial fornecer
+intervenção acadêmica aos alunos.
+
+31. Lavoie e Proulx (2019)
+
+Sistema de gerenciamento de aprendizagem (LMS) com recursos exclusivos orientados para "cursos invertidos".
+
+32. Manhães, Cruz e Zimbrão (2014)
+
+Arquitetura WAVE que fornece informações úteis sobre o desempenho de estudantes.
+
+41. Sharma e Ahuja (2016)
+
+Recomendação semântica usando ontologia para recomendar conteúdo de aprendizagem relevante e personalizado para os alunos.
+
+44. Thai-Nghe et al. (2010)
+
+Técnicas de sistema de recomendação para mineração de dados educacionais, especialmente para prever o desempenho do aluno.
+
+46. Venugopalan, Srinath e Rodrigues (2016)
+
+Sistema de recomendação baseado em conteúdo.
+
+47. Wang, Sun e Chen (2019)
+
+Sistema inteligente de assistente de ensino que substitui a maneira de esperar pela resposta manual.
+
+49. Zakzewska (2018)
+
+Sistema de recomendação baseado em agentes, que, para cada novo aluno, sugere um grupo de estudantes de perfis semelhantes.
+
+50. Zaoudi e Belhadaoui (2020)
+
+Modelo de LBA (Learner Behavior Analytics) baseado em um sistema chamado SBAN (Score and Behavior Analytics) para analisar os resultados
+e o comportamento dos alunos.
+
+3.3 QG2 – Quais estratégias vêm sendo aplicadas para obtenção de benefícios para discentes, docentes e gestores por meio da análise de dados no âmbito da EAD?
+Os artigos indicam estratégias que vêm sendo aplicadas por meio de análise de dados dos alunos que ficam armazenados em ambientes virtuais ou em sistemas de gestão acadêmicas. As estratégias podem ser categorizadas em dois aspectos: 1) aplicação de métodos e técnicas de análises e 2) serviços inteligentes.
+As estratégias categorizadas como aplicação de métodos e técnicas de análises de dados são: estruturas de softwares para desenvolvimento de modelos de previsão (34), sistema de
+344
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+mineração de dados educacionais (30), infraestrutura de pipeline (5), estrutura de previsão de desempenho do aluno (37), sistema orientado para análise dos resultados (51), algoritmo PCA (40), métodos baseados em uma classe estatística latente (42), aplicação da mineração de dados usando técnicas computacionais (36), gráfico misto de termos (9), plataforma de mineração de opinião (43), técnicas de mineração de dados como agrupamento e associação (22), técnica estatística de Machine Learning (20), mecanismo de análise de feedback distribuído para Big Data (1), redes neurais para prever o desempenho (38), método de previsão de estilo de aprendizagem (48), sistema que usa a metodologia de votação (27), modelo comportamental de aprendizagem baseado em LBPN (7), algoritmos de clustering (35), método para prever notas finais de alunos por uma rede neural recorrente (33), ferramenta de análise acadêmica (16), técnicas complementares - cluster hierárquico (39), metodologia de análise de aprendizado (45), método baseada em LA (17) e modelo explicativo do comportamento do aluno (24).
+As estratégias categorizadas como serviços inteligentes são: sistema de gerenciamento de aprendizagem (31), recomendação semântica usando ontologia (41), recomendação híbrida baseada no perfil do aluno (25), estrutura de aprendizado de reforço profundo (19), sistema de tomada de decisão (13), sistema de recomendação baseado em conteúdo (46), linguagem específica de domínio (4), arquitetura WAVE (32), sistema inteligente de assistente de ensino (47), sistema de análise de perfil (14), algoritmo com base na técnica de otimização de colônias de formigas (28), protótipo de indicadores (15), sistemas de aprendizado online baseados em tecnologias de Big Data (10), sistema de recomendação baseado em agentes (49), sistema de elearning baseado na tecnologia Java2D (18), sistema de recomendação baseado em um ID (2), sistema de captura (29), modelo personalizado (6), modelo de ontologia (23), ferramenta de avaliação (12), método de recomendação adaptativa (8), algoritmo “Kernel Context Recommendender System” (21), sistemas de recomendação de cursos distribuídos (11), interface do usuário personalizada (3), técnicas de sistema de recomendação para mineração de dados educacionais (44), tutor individualizado de inteligência artificial (26) e modelo de LBA baseado em um sistema chamado SBAN (50).
+A aplicação de métodos e técnicas de análises de dados fornecem previsão de nota do aluno, detecção de padrão de comportamento do aluno, previsão do progresso acadêmico do aluno, modelagem do perfil do aluno, previsão de riscos de abandono do curso e fornecimento de feedback de desempenho do aluno para os professores.
+Além disso, gestores e professores podem oferecer sistemas de recomendações para solucionar problemas no processo de ensino e aprendizagem ofertando conteúdos adequados que atendam às necessidades e preferências individuais dos alunos.
+A utilização da análise de dados beneficia não somente alunos e professores, mas também os gestores que podem usar modelos analíticos para realizar campanhas mais direcionadas, oferecer serviços diferenciados de acordo com o perfil do aluno, entre outros.
+As informações obtidas por meio das análises de dados dos alunos, ajudam gestores na tomada de decisão a curto, médio e a longo prazo.
+3.4 QF1 – Existem métodos/técnicas de análise que vêm utilizando históricos de registros de logs dos alunos no âmbito da EAD?
+Dos 51 artigos mapeados, 18% apresentam a aplicação de métodos de análise nos traços de interação dos alunos deixados nos registros de logs dos sistemas de gerenciamento de aprendizagem disponíveis nos ambientes virtuais de aprendizagem.
+O artigo apresentado por Anaya, Radhika e Manohara Pai (2010) teve como objetivo entender as características dos alunos e gerar a interface do usuário personalizada conforme seus estilos de aprendizado, baseados em análise do log da web.
+345
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Graf, Andy e Arnold (2011) apresentaram uma ferramenta de análise acadêmica desenvolvida no Moodle Analytics que incorpora funcionalidade para analisar dados relacionados ao comportamento dos alunos.
+Florian et al. (2011) desenvolveram um protótipo que implementa indicadores como exemplos de aplicações analíticas de aprendizado. O processo de prototipagem indicou que o rastreamento de atividades do Moodle inclui dados sobre estruturas sociais mais complexas em ambientes virtuais de aprendizagem.
+Dimopoulos, Petropoulus e Retalis (2013) apresentaram uma ferramenta de avaliação, chamada Rubrica Enriquecida de análise de Aprendizagem (LAe-R), que foi desenvolvida como um plug-in do Moodle contendo critérios e níveis de classificação relacionados que estão associados aos dados extraídos da análise da interação dos alunos e do comportamento de aprendizagem em um curso Moodle.
+Os autores Lara et al. (2014) utilizaram técnicas de mineração de dados nos logs do banco de dados interno do Moodle com o objetivo de descobrir os padrões representativos de cada grupo de alunos.
+Omar e Abdesselam (2017) utilizaram algoritmos de classificação nos traços de interação com uma plataforma de e-learning e, especificamente, em arquivo de log extraído da plataforma de e-learning da Universidade de Bechar com o objetivo de testar e comparar o desempenho dos algoritmos.
+Lagman e Mansul (2017) criaram um sistema que captura caminhos de e-learning de cada aluno e pode determinar tópicos e assuntos difíceis, nos quais é essencial fornecer intervenção acadêmica aos alunos, servindo como ferramenta educacional complementar para ajudar os alunos a melhorar seu desempenho acadêmico.
+Hussain et al. (2018) aplicaram técnicas estatísticas nos dados de registros de logs no moodle, para identificar alunos com baixo desempenho ou inativos e permitir ao instrutor tomadas de decisões inteligentes antes do exame final.
+Islam, Soddiqui e Aljohani (2019) utilizaram as técnicas de mineração de dados aplicadas nos dados de interação dos alunos para identificar padrões de comportamentos e possíveis atributos-chaves para prever o desempenho final acadêmico.
+Altaf, Soomro e Rawi (2019) utilizaram as redes neurais artificiais para prever o desempenho dos alunos baseando-se nos dados de logs de um sistema de gerenciamento de campus.
+Para melhorar a taxa de conclusão do curso e fornecer conteúdos adequados que atendam às necessidades e preferências individuais do aluno, Chanaa e Faddouli (2018) propuseram um modelo personalizado composto que utiliza as trilhas e a pegada dos alunos quando utilizam um sistema de gerenciamento de aprendizado a fim de encontrar informações convenientes sobre os alunos e explorá-las com sucesso.
+A tabela 6 apresenta os métodos/técnicas encontrados nos artigos que utilizaram análise de dados usando históricos de registros de logs com objetivo de identificar padrões de comportamento de aprendizagem, identificar alunos com baixo desempenho ou inativos e intervir oferecendo ferramentas ou conteúdo personalizado como apoio educacional.
+Os métodos e técnicas aplicadas na EAD compreendem as técnicas de mineração de dados educacionais (30, 22), técnicas estatísticas (20), redes neurais artificiais (1), algoritmos de classificação (35), ferramenta de análise (16), protótipos de indicadores (15), sistemas de captura (29), modelo personalizado (6), ferramenta de avaliação (12) e interface personalizada (3).
+
+346
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Tabela 6: Relação dos artigos que contêm métodos de análise utilizando históricos de registros e logs.
+
+Autores
+
+Métodos/técnicas de Análise
+
+1. Altaf, Soomro e Rawi (2019)
+3. Anaya, Radhika e Manohara Pai (2010)
+6. Chanaa e Faddouli (2018)
+12. Dimopoulos, Petropoulu e Retalis (2013)
+15. Florian et al. (2011)
+16. Graf, Andy e Arnold (2011)
+
+Redes neurais para prever o desempenho dos alunos baseando-se nos dados de logs.
+Interface do usuário personalizada conforme seus estilos de aprendizado, baseados em análise do log da web.
+Modelo personalizado com 3 componentes principais, análise sentimental, análise cognitiva e estilo de aprendizagem.
+Ferramenta de avaliação, chamada Rubrica Enriquecida de análise de Aprendizagem (LAe-R).
+Protótipo que implementa indicadores como exemplos de aplicações analíticas de aprendizado.
+Ferramenta de análise acadêmica desenvolvida no Moodle Analytics.
+
+20. Hussain et al. (2018)
+
+Técnicas estatística nos dados de registros de logs no moodle.
+
+22. Islam, Soddiqui e Aljohani (2019)
+29. Lagman e Mansul (2017)
+
+Técnicas de mineração de dados aplicadas nos dados de interação dos alunos. Sistema que captura caminhos de e-learning de cada aluno.
+
+30. Lara et al. (2014) 35. Omar e Abdesselam (2017)
+
+Técnicas de mineração de dados nos dados de logs no banco de dados interno do Moodle
+Algoritmos de classificação nos traços de interação com uma plataforma de e-learning.
+
+3.5 QE1 – Onde os trabalhos foram desenvolvidos?
+Na identificação da origem da publicação sobre a temática foi observado o local de desenvolvimentos dos estudos. Observa-se que o maior número de artigos publicados sobre a temática pesquisada vem da China com 8 artigos publicados seguido de Marrocos com 7, Espanha com 6, Alemanha com 5, Grécia e Japão com 3 e os demais países com menos publicações de artigos.
+Na figura 2, os artigos foram divididos por ano de publicação. Cada peça representa o país dos autores e os números dentro da peça faz menção a identificação da referência dos artigos relacionados na tabela 2 organizados em ordem alfabética, onde são destacados os autores, países, bases e um resumo do foco do artigo.
+
+Figura 2: Países de publicação.
+347
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+3.6 QE2 – Em quais bases de dados os trabalhos foram publicados?
+A figura 3 apresenta a porcentagem de publicações dos 51 artigos mapeados sobre a temática no período de 2010 a junho de 2020. Pode-se observar que a maioria das publicações encontradas foram na base de dados da ACM Digital Library com 63% dos artigos, seguida pelas bases IEEE Xplore Digital Library com 13%, Springer Library com 12%, ScienceDirect com 8%, e Scopus com apenas 4%.
+
+Figura 3: Bases de publicação.
+Observa-se na figura 4 que em 2010 foram publicados 5 artigos, tendo um declínio nos anos de 2011 e 2012, um aumento de publicação nos anos de 2013 e 2014, um declínio expressivo nos anos de 2015, um aumento no ano de 2016 e um crescimento significativo entre os anos de 2017 a 2020, sendo 7 publicações em 2017, 9 publicações nos anos de 2018 e 2019 e 6 publicações de janeiro a junho de 2020.
+
+Figura 4: Publicação por ano e por base de busca.
+348
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+4 Considerações finais
+A EAD vem se destacando na área educacional e o seu uso contribui na geração de dados provenientes da interação e do comportamento de aprendizagem dos alunos em um curso à distância.
+A aplicação de métodos e técnicas de análises de dados identificam padrões de comportamento dos alunos, previsão do progresso acadêmico e de possível abandono do curso, possibilitando aos professores e gestores tomadas de decisões diante dos problemas encontrados.
+Este trabalho identificou o cenário atual nas publicações referentes ao uso de análise de dados, LA e sistemas inteligentes aplicados a educação à distância. O mapeamento sistemático da literatura permitiu identificar e analisar os artigos selecionados nesta pesquisa.
+A pesquisa possibilitou a identificação de artigos que utilizaram métodos e técnicas de análises de dados em ambientes de educação à distância.
+Dos 51 artigos selecionados, 39% apresentaram métodos e/ou técnicas de LA, algoritmos, técnicas de agrupamento, associação e classificação, sistemas orientados a análises, estruturas/arquiteturas de softwares, técnicas computacionais, métodos baseados em classes estatísticas, ferramentas de análise, redes neurais artificiais e Big Data.
+Essas técnicas e modelos podem ser utilizadas nas descobertas de padrões de comportamento dos alunos e permitindo que professores e gestores utilizem as informações para diminuir os problemas enfrentados na realização dos cursos EAD, tais como reprovação e evasão.
+A oferta de serviços inteligentes no âmbito da EAD foi observada em 43% dos artigos selecionados. Os principais serviços inteligentes ofertados são os sistemas de gerenciamento de conteúdo, sistemas de recomendação, sistemas para análises de perfis, algoritmos, tutor inteligente, estruturas e modelos baseados nos perfis de alunos que oferecem recomendações de ferramentas ou conteúdo personalizado.
+Desta forma, esses serviços inteligentes promovem melhorias na aprendizagem e possibilitam minimizar a taxa de evasão em cursos EAD.
+Foram identificados, em 18% dos artigos, métodos e técnicas de análises de dados aplicados nos históricos de registros de logs dos alunos nos cursos EAD, com objetivo de identificar padrões de comportamento de aprendizagem, identificar alunos com baixo desempenho ou inativos e intervir oferecendo ferramentas ou conteúdo personalizado como apoio educacional.
+As principais técnicas encontradas são as técnicas de mineração de dados, técnicas estatísticas, redes neurais artificiais, algoritmos de classificação, protótipos de indicadores, modelos personalizados e ferramenta de avaliação.
+O estudo também identificou um crescente aumento no interesse dos autores de pesquisas relacionadas ao uso de serviços inteligentes e LA em EAD. Esse aumento pode ser observado nos anos de 2017 a junho de 2020 com 31 artigos publicados.
+Como trabalho futuro pretende-se realizar uma pesquisa com estudantes e professores com o objetivo de obter dados e opiniões sobre o uso e os desafios da EAD e também desenvolver um sistema inteligente de recomendação baseado no resultado das análises deste mapeamento sistemático.
+
+349
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Referências
+
+A. Chanaa and N. E. Faddouli, "Deep learning for a smart e-Iearning system," 2018 4th International Conference on Cloud Computing Technologies and Applications (Cloudtech), Brussels, Belgium, 2018, pp. 1-8. DOI: 10.1109/CloudTech.2018.8713335. [GS Search]
+
+Altaf, Saud. Waseem, Soomro and Izani, Mohd. Rawi, Mohamed. (2019). Student Performance Prediction using Multi-Layers Artificial Neural Networks: A Case Study on Educational Data Mining. In Proceedings of the 2019 3rd International Conference on Information System and Data Mining (ICISDM 2019). Association for Computing Machinery, New York, NY, USA, 59–64. DOI: https://doi.org/10.1145/3325917.3325919. [GS Search]
+
+Anaya, Antonio R. Luque, Manuel. García-Saiz, Tomás (2013). Recommender system in collaborative learning environment using an influence diagram, Expert Systems with Applications, Volume 40, Issue 18, 2013, Pages 7193-7202, ISSN 0957-4174. DOI: 10.1016/j.eswa.2013.07.030 [GS Search]
+
+Anaya V. Kolekar, Radhika M. Pai, Manohara Pai M.M. Adaptive User Interface for Moodle based E-learning System using Learning Styles, Procedia Computer Science, Volume 135, 2018, Pages 606-615, ISSN 1877-0509. DOI: 10.1016/j.procs.2018.08.226 [GS Search]
+
+Balderas, Antonio. Iván Ruiz-Rube, Manuel Palomo-Duarte, and Juan M. Dodero. (2013). A generative computer language to customize online learning assessments. In Proceedings of the First International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM ’13). Association for Computing Machinery, New York, NY, USA, 141–147. DOI: 10.1145/2536536.2536558 [GS Search]
+
+Brown, M. (2011). Learning analytics: The coming third wave. Washington, DC: Learning Initiative. Disponível em: https://library.educause.edu/resources/2011/4/learning-analyticsthe-coming-third-wave. Acesso em: 20 jan. 2020.
+
+Budgen, D. Turner, M. Brereton, P. and Kitchenham, B. (2008). Using mapping studies in software engineering in Proceedings of PPIG, vol. 8. Lancaster University, pp. 195–204. [GS Search]
+
+Cambruzzi, Wagner L.; Rigo, Sandro J.; Barbosa, Jorge L. V. (2015). Dropout Prediction and Reduction in Distance Education Courses with the Learning Analytics Multitrail Approach. Journal of Universal Computer Science (Print), v. 21, p. 23-47, 2015. [GS Search]
+
+Chaffai, Abdelmajid. Hassouni, Larbi and Anoun, Houda. (2017). E-Learning Real Time Analysis Using Large Scale Infrastructure. In Proceedings of the 2nd international Conference on Big Data, Cloud and Applications (BDCA’17). Association for Computing Machinery, New York, NY, USA, Article 23,1–6. DOI: 10.1145/3090354.3090378 [GS Search]
+
+Chang, Yi-Chun and Chu, Chih-Ping. (2010). Applying learning behavioral Petri nets to the
+
+analysis of learning behavior in web-based learning environments, Information Sciences,
+
+Volume
+
+180, Issue 6, 2010, Pages 995-1009, ISSN 0020-0255.
+
+DOI: 10.1016/j.ins.2009.11.022 [GS Search]
+
+Chen, H. Yin, C. Li, R. Rong, W. Xiong Z. and David, B. (2020). Enhanced learning resource recommendation based on online learning style model, in Tsinghua Science and Technology, vol. 25, no. 3, pp. 348-356, June 2020, DOI: 10.26599/TST.2019.9010014 [GS Search]
+
+Clarizia, Fabio. Francesco Colace, Massimo De Santo, Marco Lombardi, Francesco Pascale, and Antonio Pietrosanto. (2018). E-learning and sentiment analysis: a case study. In Proceedings of the 6th International Conference on Information and Education Technology (ICIET ’18).
+
+350
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Association for Computing Machinery, New York, NY, USA, 111–118. DOI: 10.1145/3178158.3178181 [GS Search]
+Dahdouh, K., Dakkak, A., Oughdir, L. et al. Big data for online learning systems. Education and Information Technologies. 23, 2783–2800 (2018). DOI: 10.1007/s10639-018-9741-3.
+Dahdouh, K., Dakkak, A., Oughdir, L. et al. Large-scale e-learning recommender system based on Spark and Hadoop. J Big Data 6, 2 (2019). DOI: 10.1186/s40537-019-0169-4 [GS Search]
+Dias, Robson Santos. Caracterização do Learning Analytics na educação a distância. v.1 n.1, junho, (2017): Anais do I Seminário de Pesquisa e Inovação Tecnológica. [GS Search]
+Dimopoulos, Ioannis. Petropoulou, Ourania and Retalis, Symeon. (2013). Assessing students’ performance using the learning analytics enriched rubrics. In Proceedings of the Third International Conference on Learning Analytics and Knowledge (LAK ’13). Association for Computing Machinery, New York, NY, USA, 195–199. DOI: 10.1145/2460296.2460335 [GS Search]
+El Fouki, Mohammed. Aknin, Noura and El.Kadiri. K. Ed (2017). Intelligent Adapted e-Learning System based on Deep Reinforcement Learning. In Proceedings of the 2nd International Conference on Computing and Wireless Communication Systems (ICCWCS’17). Association for Computing Machinery, New York, NY, USA, Article 85, 1–6. DOI: 10.1145/3167486.3167574 [GS Search]
+El Moustamid, E. En-Naimi, and J. El Bouhdidi. (2017). Integration of data mining techniques in e-learning systems: Clustering Profil of Lerners and Recommender Course System. In Proceedings of the 2nd international Conference on Big Data, Cloud and Applications (BDCA’17). Association for Computing Machinery, New York, NY, USA, Article 97, 1–4. DOI: 10.1145/3090354.3090453 [GS Search]
+Ferguson, R., Brasher, A., Clow, D., Cooper, A., Hillaire, G., Mittelmeier, J., Rienties, B., Ullmann, T., Vuorikari, R. (2016). Research Evidence on the Use of Learning Analytics Implications for Education Policy. R. Vuorikari, J. Castaño Muñoz (Eds.). Joint Research Centre Science for Policy Report; EUR 28294 EN. DOI: 10.2791/955210 [GS Search]
+Florian, Beatriz & Glahn, Christian & Drachsler, Hendrik & Specht, Marcus & Fabregat, Ramón. (2011). Activity-Based Learner-Models for Learner Monitoring and Recommendations in Moodle. Business Strategy and The Environment. 6964. 111-124. DOI: 10.1007/978-3-64223985-4_10 [GS Search]
+Graf, Sabine. Ives, Cindy. Rahman, Nazim. Ferri, Arnold. (2011). AAT - A tool for accessing and analysing students' behaviour data in learning systems. JO - ACM International Conference Proceeding Series. isbn 9781450309448, Association for Computing Machinery, New York, NY, USA. DOI: 10.1145/2090116.2090145 [GS Search]
+Guo, Chenkai., Yan, Xiaoyu., and Li, Yan. (2020). Prediction of Student Attitude towards Blended Learning Based on Sentiment Analysis. In Proceedings of the 2020 9th International Conference on Educational and Information Technology (ICEIT 2020). Association for Computing Machinery, New York, NY, USA, 228–233. DOI: 10.1145/3383923.3383930 [GS Search]
+Hamada M. (2012) Learning Style Model for e-Learning Systems. In: Huang R., Ghorbani A.A., Pasi G., Yamaguchi T., Yen N.Y., Jin B. (eds) Active Media Technology. AMT 2012. Lecture Notes in Computer Science, vol 7669. Springer, Berlin, Heidelberg. DOI: 10.1007/978-3642-35236-2_19 [GS Search]
+Heidrich, Leonardo; Barbosa, Jorge; Rigo, Sandro; Cambruzzi, Wagner Luiz; Ribeiro, Giovane. (2014). Diagnóstico do Comportamento dos Aprendizes na Educação a Distância com Base
+351
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+no Estilo de Aprendizagem, pp. 412-421. Disponível em: https://www.researchgate.net/publication/300121402_Diagnostico_do_Comportamento_dos _Aprendizes_na_Educacao_a_Distancia_com_Base_no_Estilo_de_Aprendizagem. DOI: 10.5753/cbie.sbie.2014.412 [GS Search]
+Huang, Zhenya., Liu, Qi., Zhai, Chengxiang., Yu Yin, Chen, Enhong., Gao, Weibo and Hu, Guoping. (2019). Exploring Multi-Objective Exercise Recommendations in Online Education Systems. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM ’19). Association for Computing Machinery, New York, NY, USA, 1261–1270. DOI: 10.1145/3357384.3357995 [GS Search]
+Hussain, Mushtaq. Hussain, Sadiq, Wu Zhang, Wenhao Zhu, Paraskevi Theodorou, and Syed Muhammad Raza Abidi. (2018). Mining Moodle Data to Detect the Inactive and Lowperformance Students during the Moodle Course. In Proceedings of the 2nd International Conference on Big Data Research (ICBDR 2018). Association for Computing Machinery, New York, NY, USA, 133–140. DOI: 10.1145/3291801.3291828 [GS Search]
+Iqbal, M. et al. (2019). Kernel Context Recommender System (KCR): A Scalable Context-Aware Recommender System Algorithm, in IEEE Access, vol. 7, pp. 24719-24737, 2019. DOI: 10.1109/ACCESS.2019.2897003 [GS Search]
+Islam, Muazzam. Siddiqui and Naif Radi Aljohani. (2019). Identifying Online Profiles of Distance Learning Students Using Data Mining Techniques. In Proceedings of the 2019 The 3rd International Conference on Digital Technology in Education (ICDTE 2019). Association for Computing Machinery, New York, NY, USA, 115–120. DOI: 10.1145/3369199.3369249 [GS Search]
+Jeevamol Joy, Nisha S Raj, and Renumol V G. (2019). An ontology model for content recommendation in personalized learning environment. In Proceedings of the Second International Conference on Data Science, E-Learning and Information Systems (DATA’19). Association for Computing Machinery, New York, NY, USA, Article 9, 1–6. DOI: 10.1145/3368691.3368700 [GS Search]
+Jovanović, Jelena. Dawson, Shane. Joksimović, Srećko and Siemens, George. (2020). Supporting actionable intelligence: reframing the analysis of observed study strategies. In Proceedings of the Tenth International Conference on Learning Analytics & Knowledge (LAK ’20). Association for Computing Machinery, New York, NY, USA, 161–170. DOI: 10.1145/3375462.3375474 [GS Search]
+Kapembe, Samuel Stallin and Quenum, José, Ghislain. (2019). A Personalised Hybrid Learning Object Recommender System. 2019, isbn 9781450362382, Association for Computing Machinery, New York, NY, USA. DOI: 10.1145/3297662.3365810 [GS Search]
+Kim, W and Kim, J. (2020). "Individualized AI Tutor Based on Developmental Learning Networks," in IEEE Access, vol. 8, pp. 27927-27937, 2020. DOI: 10.1109/ACCESS.2020.2972167 [GS Search]
+Kotsiantis, S. Patriarcheas, Xenos, K. M. (2010). A combinational incremental ensemble of classifiers as technique for predicting students’ performance in distance education, Knowledge-Based Systems, Volume 23, Issue 6, 2010, Pages 529-535, ISSN 0950-7051. DOI: 10.1016/j.knosys.2010.03.010 [GS Search]
+Kozierkiewicz-Hetmańska A., Zyśk D. (2013) A Method for Determination of an Opening Learning Scenario in Intelligent Tutoring Systems. In: Selamat A., Nguyen N.T., Haron H. (eds) Intelligent Information and Database Systems. ACIIDS 2013. Lecture Notes in Computer Science, vol 7803. Springer, Berlin, Heidelberg. DOI: 10.1007/978-3-642-365430_14 [GS Search]
+352
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Lagman, Ace C. and Mansul, Danna May. (2017). Extracting Personalized Learning Path in Adaptive E-Learning Environment Using Rule Based Assessment. In Proceedings of the 2017 International Conference on Information Technology (ICIT 2017). Association for Computing Machinery, New York, NY, USA, 335–340. DOI: 10.1145/3176653.3176679 [GS Search]
+
+Lara, Juan A, David Lizcano, María A. Martínez, Juan Pazos, Teresa Riera, (2014). A system for
+
+knowledge discovery in e-learning environments within the European Higher Education Area
+
+– Application to student data from Open University of Madrid, UDIMA, Computers &
+
+Education,
+
+Volume
+
+72, 2014, Pages 23-36, ISSN 0360-1315.
+
+DOI: 10.1016/j.compedu.2013.10.009. DOI: 10.1016/j.compedu.2013.10.009 [GS Search]
+
+Lavoie, Francis B. and Proulx, Pierre. (2019). A Learning Management System for Flipped Courses. In Proceedings of the 2019 The 3rd International Conference on Digital Technology in Education (ICDTE 2019). Association for Computing Machinery, New York, NY, USA, 73–76. DOI: 10.1145/3369199.3369216 [GS Search]
+
+Manhães, Laci Mary Barbosa. Da Cruz, Sérgio Manuel Serra and Zimbrão, Geraldo. (2014). WAVE: an architecture for predicting dropout in undergraduate courses using EDM. In Proceedings of the 29th Annual ACM Symposium on Applied Computing (SAC ’14). Association for Computing Machinery, New York, NY, USA, 243–247. DOI: 10.1145/2554850.2555135 [GS Search]
+
+McAfee, Andrew; Brynjolfsson, Erik. Big Data: The Management Revolution. (2012). Harvard Business Review. Disponível em: https://www.academia.edu/2662701/Big_Data_The_Man agement_Revolution. Acesso em: 20 mar. 2020. [GS Search]
+
+Okubo, F. Yamashita, T. Shimada, A. and Ogata. H. (2017). A neural network approach for students’ performance prediction. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference (LAK ’17). Association for Computing Machinery, New York, NY, USA, 598–599. DOI: 10.1145/3027385.3029479 [GS Search]
+
+Olivé, David Monllaó, Du Q. Huynh, Mark Reynolds, Martin Dougiamas, and Damyon Wiese. (2018). A supervised learning framework for learning management systems. In Proceedings of the First International Conference on Data Science, E-learning and Information Systems (DATA ’18). Association for Computing Machinery, New York, NY, USA, Article 18, 1–8. DOI: 10.1145/3279996.3280014 [GS Search]
+
+Omar, L. and Abdesselam, B. (2017). Applying Clustering Algorithms to Solve E-learning Problems. SIG Proceedings Paper in word Format. In Proceedings of In Proceedings of ACM ICCES conference, Istanbul, Turkey, July 2017 (ICCES '17), 5 pages. DOI: 10.1145/3129186.3129195 [GS Search]
+
+Peñafiel, Myriam. Stefanie Vásquez, Diego Vásquez, Juan Zaldumbide, and Sergio Luján-Mora. (2018). Data Mining and Opinion Mining: A Tool in Educational Context. In Proceedings of the 2018 International Conference on Mathematics and Statistics (ICoMS 2018). Association for Computing Machinery, New York, NY, USA, 74–78. DOI: 10.1145/3274250.3274263 [GS Search]
+
+Petersen, K. Vakkalanka, S. and Kuzniarz. L. (2015). Guidelines for conducting systematic mapping studies in software engineering: An update. Information and Software Technology 64 (2015), 1–18. DOI: 10.1016/j.infsof.2015.03.007 [GS Search]
+
+Qu S., K. Li, S. Zhang and Y. Wang, (2018). Predicting Achievement of Students in Smart Campus, in IEEE Access, vol. 6, pp. 60264-60273, 2018. DOI: 10.1109/ACCESS.2018.2875742 [GS Search]
+
+353
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Rashidah, Olanrewaju & Khan, Burhan & Mir, Roohie & Baba, Asifa & Anwar, Farhat. (2016). Dfam: A distributed feedback analysis mechanism for knowledge based educational big data. Journal Teknologi. 78. 31-38. DOI: 10.11113/jt.v78.10020 [GS Search]
+
+Rayón, Alex. Guenaga, Mariluz and Núñez, Asier. (2014). Supporting competency-assessment through a learning analytics approach using enriched rubrics. In Proceedings of the Second International Conference on Technological Ecosystems for Enhancing Multiculturality (TEEM ’14). Association for Computing Machinery, New York, NY, USA, 291–298. DOI: 10.1145/2669711.2669913 [GS Search]
+
+Ros, Salvador and Lázaro, Juan Carlos and Robles-Gómez, Antonio and Caminero, Agustín C. and Tobarra, Llanos and Pastor, Rafael. (2017). Analyzing Content Structure and Moodle Milestone to Classify Student Learning Behavior in a Basic Desktop Tools Course., isbn 9781450353861, Association for Computing Machinery, New York, NY, USA. DOI: 10.1145/3144826.3145392 [GS Search]
+
+Sharma, Mugdha and Ahuja, Laxmi. (2016). A Novel and Integrated Semantic Recommendation System for E-Learning using Ontology. In Proceedings of the Second International Conference on Information and Communication Technology for Competitive Strategies (ICTCS ’16). Association for Computing Machinery, New York, NY, USA, Article 52, 1–5. DOI: 10.1145/2905055.2905110.
+
+Siemens, G. (2013). Learning analytics: The emergence of a discipline. American Behavioral Scientist. Vol. 57, Issue 10:1380–400. DOI: 10.1177/0002764213498851 [GS Search]
+
+Sorour, Shaymaa. Kazumasa Goda, and Tsunenori Mine. (2015). Correlation of Topic Model and Student Grades Using Comment Data Mining. In Proceedings of the 46th ACM Technical Symposium on Computer Science Education (SIGCSE ’15). Association for Computing Machinery, New York, NY, USA, 441–446. DOI: 10.1145/2676723.2677259 [GS Search]
+
+Spatiotis, Nikolaos. Isidoros Perikos, Iosif Mporas, and Michael Paraskevas. (2018). Evaluation of an Educational Training Platform Using Text Mining. In Proceedings of the 10th Hellenic Conference on Artificial Intelligence (SETN ’18). Association for Computing Machinery, New York, NY, USA, Article 42, 1–5. DOI: 10.1145/3200947.3201049 [GS Search]
+
+Thai-Nghe, Nguyen. Drumond, Lucas. Krohn-Grimberghe, Artus. Schmidt-Thieme, Lars. (2010).
+
+Recommender system for predicting student performance, Procedia Computer Science,
+
+Volume 1, Issue 2, 2010, Pages 2811-2819, ISSN 1877-0509.
+
+DOI:
+
+10.1016/j.procs.2010.08.006 [GS Search]
+
+Uzir, Nora’ayu Ahmad., Dragan Gašević, Jelena Jovanović, Wannisa Matcha, Lisa-Angelique Lim, and Anthea Fudge. (2020). Analytics of time management and learning strategies for effective online learning in blended environments. In Proceedings of the Tenth International Conference on Learning Analytics & Knowledge (LAK ’20). Association for Computing Machinery, New York, NY, USA, 392–401. DOI: 10.1145/3375462.3375493 [GS Search]
+
+Venugopalan, S., Srinath, M. V. and Rodrigues, Paul. (2016). Recommender System for ELearning through Content and Profile Based Approach. In Proceedings of the Second International Conference on Information and Communication Technology for Competitive Strategies (ICTCS ’16). Association for Computing Machinery, New York, NY, USA, Article 45, 1–5. DOI: 10.1145/2905055.2905103 [GS Search]
+
+Wang, Y. Sun, Y. and Chen Y. (2019) "Design and Research of Intelligent Tutor System Based on Natural Language Processing," IEEE International Conference on Computer Science and Educational Informatization (CSEI), Kunming, China, 2019, pp. 33-36. DOI: 10.1109/CSEI47661.2019.8939031 [GS Search]
+
+354
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+Yang, J. Huang, Z. X., Gao Y. X. and Liu H. T. (2014). "Dynamic Learning Style Prediction Method Based on a Pattern Recognition Technique," in IEEE Transactions on Learning Technologies, vol. 7, no. 2, pp. 165-177, April-June 2014. DOI: 10.1109/TLT.2014.2307858 [GS Search]
+Zakrzewska D. (2010) Building Group Recommendations in E-Learning Systems. In: Jędrzejowicz P., Nguyen N.T., Howlet R.J., Jain L.C. (eds) Agent and Multi-Agent Systems: Technologies and Applications. KES-AMSTA 2010. Lecture Notes in Computer Science, vol 6070. Springer, Berlin, Heidelberg. DOI: 10.1007/978-3-642-13480-7_41 [GS Search]
+Zaoudi, Mohammed and Hicham Belhadaoui. (2020). Adaptive E-learning: Adaptation of Content According to the Continuous Evolution of the Learner During his Training. In Proceedings of the 3rd International Conference on Networking, Information Systems & Security (NISS2020). Association for Computing Machinery, New York, NY, USA, Article 71, 1–6. DOI: 10.1145/3386723.3387890 [GS Search]
+Zorrilla, Marta. García, Diego and Álvarez, Elena. (2010). A decision support system to improve e-learning environments. In Proceedings of the 2010 EDBT/ICDT Workshops (EDBT ’10). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. DOI: 10.1145/1754239.1754252 [GS Search]
+
+Apêndice A – Tabela 3: Relação dos artigos mapeados
+
+Autores
+1. Altaf, Soomro e Rawi (2019)
+2. Anaya, Luque e Garciá Saiz (2013)
+3. Anaya, Radhika e Manohara Pai (2010)
+4. Balderas et al (2013)
+5. Chaffai, Hassoun e Anoun (2017)
+6. Chanaa e Faddouli (2018)
+
+País Estados Unidos Espanha
+Espanha Espanha
+Marrocos Marrocos
+
+7. Chang e Chu (2010)
+
+China
+
+8. Chen et al (2020)
+9. Clarizia et al (2018) 10. Dahdouh et al (2018)
+11. Dahdouh, Dakkak Oughdir et al (2019)
+12. Dimopoulos, Petropoulu e Retalis (2013)
+13. El Fouki, Amni e El Kadir (2017)
+14. El Moustamid, EmNaimi e El Bouhdidi (2017)
+
+China Itália Marrocos Marrocos
+Grécia
+Marrocos
+Marrocos
+
+Base ACM ACM
+
+Resumo de Modelos de Análises/Serviços Inteligentes
+Redes Neurais.
+Sistema de recomendação baseado em um ID.
+
+ScienceDirect ACM ACM IEEE
+
+Interface do usuário personalizada. Linguagem específica de domínio. Arquitetura da infraestrutura de pipeline.
+Modelo personalizado.
+
+ScienceDirect
+
+Modelo comportamental de aprendizagem baseado em LBPN (learning behavioral Petri nets).
+
+IEEE
+ACM SPRINGER SPRINGER
+
+Método de recomendação aprimorado.
+Gráfico misto de termos (MGTs). Sistemas de aprendizado.
+Sistema de recomendação de cursos distribuídos.
+
+ACM
+
+Ferramenta de avaliação.
+
+ACM ACM
+
+Sistema de tomada de decisão para ajudar os instrutores.
+Sistema capaz de analisar o perfil dos alunos e indexar vídeos na Web.
+
+355
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+15. Florian et al (2011)
+16. Graf, Andy e Arnold (2011)
+17. Guo, Yan e Li (2020)
+18. Hamada (2012)
+
+Alemanha Canadá
+China Japão
+
+19. Huang et al. (2019) 20. Hussain et al. (2018)
+21. Iqbal et al. (2019)
+
+China China Inglaterra
+
+SPRINGER ACM
+
+Protótipo. Ferramenta de Análise Acadêmica (AAT).
+
+ACM SPRINGER
+
+Método baseada em LA.
+Modelo de um sistema de e-learning baseado na tecnologia Java2D.
+
+ACM ACM IEEE
+
+Estrutura de aprendizado de Reforço Profundo. Técnica estatística de Machine Learning (ML). Algoritmo “Kernel Context Recommendender System”.
+
+22. Islam, Soddiqui e Arábia Saudita Aljohani (2019)
+
+ACM
+
+Técnicas de mineração de dados como agrupamento e associação.
+
+23. Jeevamol, Raj e Renumol (2019)
+24. Jovanović et al. (2020)
+25. Kapembe e Ghislain (2019)
+26. Kim e Kim (2020)
+27. Kotsiantis, Patriarcheas e Xenos (2010)
+
+Emirantes Árabes
+Alemanha Namíbia
+Coréia Grécia
+
+ACM
+
+Modelo de ontologia.
+
+ACM ACM
+
+Modelo explicativo do comportamento do aluno. Recomendação híbrida (RS).
+
+IEEE
+
+Tutor individualizado de Inteligência Artificial (IA).
+
+ScienceDirect Sistema que combina uma versão incremental do Naive Bayes, os algoritmos 1-NN e WINNOW.
+
+28. Kozierkiewicz Hetmańska e Zyśk (2013)
+
+Polônia
+
+SPRINGER
+
+Algoritmo com base na técnica de otimização de colônias de formigas.
+
+29. Lagman e Mansul (2017)
+30. Lara et al (2014)
+
+Filipinas Espanha
+
+31. Lavoie e Proulx (2019) 32. Manhães, Cruz e Zimbrão (2014)
+
+Canadá Brasil
+
+ACM
+SCOPUS
+ACM ACM
+
+Sistema de captura.
+Sistema de Mineração de Dados Educacionais (SEDM).
+Sistema de gerenciamento de aprendizagem (LMS). Arquitetura WAVE.
+
+33. Okubo et al. (2017) 34. Olivé et al (2018) 35. Omar e Abdesselam
+(2017)
+
+Japão Austrália Algéria
+
+ACM ACM ACM
+
+Rede Neural Recorrente (RNN). Estruturas de softwares.
+Algoritmos de clustering aplicados a uma plataforma de e-learning.
+
+36. Peñafiel et al (2018) Equador
+
+37. Qu et al (2018) 38. Rashidah et al (2016)
+
+China Malásia
+
+39. Rayón, Guenaga e Núñez (2014)
+40. Ros et al (2017) 41. Sharma e Ahuja (2016) 42. Sorour, Goda e Mine
+(2015)
+43. Spatiotis et al (2018) 44. Thai-Nghe et al. (2010)
+
+Espanha
+Espanha Índia Japão
+Grécia Alemanha
+
+45. Uzir et al (2020)
+
+Alemanha
+
+ACM
+IEEE SCOPUS
+ACM
+ACM ACM ACM
+
+Técnicas computacionais, como mineração de texto e análise de sentimentos.
+Estrutura de previsão de desempenho do aluno. Mecanismo de Análise de Feedback distribuído para
+Big Data.
+Sistema (SCALA - Avaliação de Competência Escalável.
+Algoritmo PCA (Principal Component Analysis) Recomendação semântica.
+Métodos baseados em uma classe estatística
+
+ACM
+
+Plataforma de mineração.
+
+ScienceDirect Técnicas de sistema de recomendação para mineração de dados educacionais.
+
+ACM
+
+Técnicas complementares - cluster hierárquico aglomerativo, análise epistêmica de redes e mineração
+de processos.
+
+356
+
+Silva et al.
+
+RBIE v.29 – 2021
+
+46. Venugopalan, Srinath e Rodrigues (2016)
+47. Wang, Sun e Chen (2019)
+48. Yang et al. (2014)
+49. Zakrzewska (2010)
+50. Zaoudi e Belhadaoui (2020)
+51. Zorrila, Garcia e Álvarez (2010)
+
+Índia
+China China Alemanha Marrocos Suíça
+
+ACM
+IEEE IEEE SPRINGER ACM ACM
+
+Sistema de recomendação baseado em conteúdo.
+Sistema inteligente de assistente de ensino. Técnica de reconhecimento de padrões.
+Sistema de recomendação baseado em agentes. Modelo de LBA (Learner Behavior Analytics). Sistema orientado para análise dos resultados.
+
+357
+
