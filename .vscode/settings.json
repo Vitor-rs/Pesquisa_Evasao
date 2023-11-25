@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Zotero SQL",
+            "database": "${workspaceFolder:Pesquisa_Evasao}/Recursos/Zotero/diretorio_dados/zotero.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
